@@ -1,0 +1,21 @@
+app,target,model,strategy,h_safe_A,h_demo,n_actual,RMSE,MAPE_pct,Dir_Acc_pct,MASE,CI95_coverage_pct,MAPE_naive_pct,beats_naive,trend,bandwidth_used,warning
+f1,stickiness,Ridge,hold_last,24,14,14,0.02676,45.62,76.9,1.466,85.7,36.76,True,falling,,OK
+f1,stickiness,XGBoost,hold_last,24,14,14,0.03488,34.27,15.4,1.687,21.4,36.76,False,falling,,low CI coverage (21%); DA < 50%; does not beat naive
+f1,stickiness,NadarayaWatson,hold_last,24,14,14,0.03731,86.06,76.9,2.2,92.9,36.76,False,rising,1.2328,does not beat naive
+f1,stickiness,LocalLinear,hold_last,24,14,14,0.04341,59.02,76.9,2.432,42.9,36.76,False,falling,2.0806,low CI coverage (43%); does not beat naive
+f1,dau,Ridge,hold_last,2,14,14,314.50348,233.08,53.8,8.173,7.1,38.74,False,falling,,h_demo=14 > h_safe_A=2; low CI coverage (7%); does not beat naive
+f1,dau,RandomForest,hold_last,2,14,14,84.44109,40.86,7.7,1.912,28.6,38.74,True,falling,,h_demo=14 > h_safe_A=2; low CI coverage (29%); DA < 50%
+f1,dau,NadarayaWatson,hold_last,2,14,14,94.99942,38.74,76.9,2.066,57.1,38.74,True,flat,0.7305,h_demo=14 > h_safe_A=2; low CI coverage (57%)
+f1,dau,LocalLinear,hold_last,2,14,14,186.20564,129.91,61.5,4.557,0.0,38.74,False,rising,0.7305,h_demo=14 > h_safe_A=2; low CI coverage (0%); does not beat naive
+f1,retention_d7,Ridge,linear_trend,3,14,8,0.05577,32.14,42.9,0.641,87.5,38.71,True,falling,,h_demo=14 > h_safe_A=3; DA < 50%
+f1,retention_d7,NadarayaWatson,linear_trend,3,14,8,0.05838,38.71,28.6,0.673,87.5,38.71,False,flat,0.7305,h_demo=14 > h_safe_A=3; DA < 50%; does not beat naive
+f1,retention_d7,LocalLinear,linear_trend,3,14,8,0.05415,34.34,57.1,0.644,87.5,38.71,True,flat,2.0806,h_demo=14 > h_safe_A=3
+f2,stickiness,Ridge,hold_last,24,14,14,0.06704,56.02,53.8,1.801,100.0,59.44,True,rising,,OK
+f2,stickiness,LocalLinear,hold_last,24,14,14,0.08233,68.73,46.2,2.217,78.6,59.44,False,rising,3.5112,low CI coverage (79%); DA < 50%; does not beat naive
+f2,stickiness,NadarayaWatson,hold_last,24,14,14,0.06794,56.79,61.5,1.827,21.4,59.44,True,flat,0.7305,low CI coverage (21%)
+f2,dau,Ridge,hold_last,1,14,14,138.71763,41.03,46.2,1.383,85.7,28.18,False,rising,,h_demo=14 > h_safe_A=1; DA < 50%; does not beat naive
+f2,dau,LocalLinear,hold_last,1,14,14,145.74533,43.18,46.2,1.46,57.1,28.18,False,rising,3.5112,h_demo=14 > h_safe_A=1; low CI coverage (57%); DA < 50%; does not beat naive
+f2,dau,NadarayaWatson,hold_last,1,14,14,71.51363,16.2,53.8,0.64,92.9,28.18,True,falling,1.2328,h_demo=14 > h_safe_A=1
+f2,retention_d7,Ridge,linear_trend,0,14,8,0.10687,58.87,28.6,1.193,87.5,59.49,False,falling,,h_demo=14 > h_safe_A=0; DA < 50%; does not beat naive
+f2,retention_d7,NadarayaWatson,linear_trend,0,14,8,0.07084,70.07,57.1,0.858,100.0,59.49,True,falling,1.2328,h_demo=14 > h_safe_A=0
+f2,retention_d7,LocalLinear,linear_trend,0,14,8,0.11303,67.84,28.6,1.283,87.5,59.49,False,falling,10.0,h_demo=14 > h_safe_A=0; DA < 50%; does not beat naive

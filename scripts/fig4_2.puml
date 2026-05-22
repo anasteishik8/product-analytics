@@ -1,0 +1,81 @@
+@startuml fig4_2
+' Высокоуровневая модульная диаграмма проекта.
+' Идея: src/ — ядро, notebooks/scripts/app — потребители, импортирующие ядро.
+' Подробный перечень модулей дан в табл. 4.2.
+
+skinparam dpi 200
+skinparam defaultFontName "Times New Roman"
+skinparam defaultFontSize 13
+skinparam shadowing false
+skinparam linetype ortho
+skinparam padding 6
+skinparam nodesep 90
+skinparam ranksep 70
+
+skinparam ArrowColor #3a8a64
+skinparam ArrowFontSize 12
+skinparam ArrowFontColor #2a5f3a
+skinparam ArrowThickness 1.6
+
+skinparam rectangle {
+  RoundCorner 16
+  BorderThickness 1.6
+  FontSize 14
+  StereotypeFontSize 0
+  StereotypeFontColor #ffffff00
+}
+
+hide stereotype
+
+skinparam rectangle<<notebooks>> {
+  BackgroundColor #ededed
+  BorderColor #555555
+  FontColor #1a1a1a
+}
+skinparam rectangle<<scripts>> {
+  BackgroundColor #e6eef7
+  BorderColor #2c5d8a
+  FontColor #0d2e4d
+}
+skinparam rectangle<<demo>> {
+  BackgroundColor #f3dcd9
+  BorderColor #a83232
+  FontColor #4a0e0a
+}
+skinparam rectangle<<core>> {
+  BackgroundColor #e2efde
+  BorderColor #3a8a64
+  BorderThickness 2.2
+  FontColor #163b29
+}
+
+title <b>Структура программных модулей: ядро и три потребителя</b>
+
+' === верхний ряд: три потребителя ===
+rectangle "<b>notebooks/</b>\nэкспериментальные расчёты" as NB <<notebooks>>
+rectangle "<b>scripts/</b>\nсборка артефактов глав ВКР" as SC <<scripts>>
+rectangle "<b>app/streamlit/</b>\nдемо-интерфейс" as ST <<demo>>
+
+' === нижний ряд: ядро ===
+rectangle "<b>src/</b> — математическое ядро\n4 модуля: kernel_regression · feature_engineering · evaluation · scenario_analysis" as CORE <<core>>
+
+' === связи: все три потребителя импортируют ядро ===
+NB -down-> CORE : импорт
+SC -down-> CORE : импорт
+ST -down-> CORE : импорт
+
+' === скрытые рёбра для разводки ===
+NB -[hidden]right- SC
+SC -[hidden]right- ST
+SC -[hidden]down- CORE
+
+legend bottom
+<size:11><color:#444444><i>Детальный состав модулей приведён в табл. 4.2</i></color></size>
+end legend
+skinparam legend {
+  BackgroundColor #ffffff
+  BorderColor #ffffff
+  FontColor #444444
+}
+
+@enduml

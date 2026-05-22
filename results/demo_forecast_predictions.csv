@@ -1,0 +1,607 @@
+app,target,model,date,day_idx,horizon,segment,y_true,y_pred,ci_lo,ci_hi,h_safe_A,h_demo,warning
+f1,stickiness,Ridge,2018-06-12 00:00:00,0,0,history,1,,,,24,14,OK
+f1,stickiness,Ridge,2018-06-13 00:00:00,1,0,history,0.6343612335,,,,24,14,OK
+f1,stickiness,Ridge,2018-06-14 00:00:00,2,0,history,0.4717607973,,,,24,14,OK
+f1,stickiness,Ridge,2018-06-15 00:00:00,3,0,history,0.3866666667,,,,24,14,OK
+f1,stickiness,Ridge,2018-06-16 00:00:00,4,0,history,0.2685851319,,,,24,14,OK
+f1,stickiness,Ridge,2018-06-17 00:00:00,5,0,history,0.2683438155,,,,24,14,OK
+f1,stickiness,Ridge,2018-06-18 00:00:00,6,0,history,0.5057618438,,,,24,14,OK
+f1,stickiness,Ridge,2018-06-19 00:00:00,7,0,history,0.3942505133,,,,24,14,OK
+f1,stickiness,Ridge,2018-06-20 00:00:00,8,0,history,0.2431693989,,,,24,14,OK
+f1,stickiness,Ridge,2018-06-21 00:00:00,9,0,history,0.226446281,,,,24,14,OK
+f1,stickiness,Ridge,2018-06-22 00:00:00,10,0,history,0.2204424104,,,,24,14,OK
+f1,stickiness,Ridge,2018-06-23 00:00:00,11,0,history,0.2104895105,,,,24,14,OK
+f1,stickiness,Ridge,2018-06-24 00:00:00,12,0,history,0.1697368421,,,,24,14,OK
+f1,stickiness,Ridge,2018-06-25 00:00:00,13,0,history,0.2156268928,,,,24,14,OK
+f1,stickiness,Ridge,2018-06-26 00:00:00,14,0,history,0.1953567384,,,,24,14,OK
+f1,stickiness,Ridge,2018-06-27 00:00:00,15,0,history,0.1510048886,,,,24,14,OK
+f1,stickiness,Ridge,2018-06-28 00:00:00,16,0,history,0.1855828221,,,,24,14,OK
+f1,stickiness,Ridge,2018-06-29 00:00:00,17,0,history,0.1562348375,,,,24,14,OK
+f1,stickiness,Ridge,2018-06-30 00:00:00,18,0,history,0.1523853636,,,,24,14,OK
+f1,stickiness,Ridge,2018-07-01 00:00:00,19,0,history,0.1557700746,,,,24,14,OK
+f1,stickiness,Ridge,2018-07-02 00:00:00,20,0,history,0.1197452229,,,,24,14,OK
+f1,stickiness,Ridge,2018-07-03 00:00:00,21,0,history,0.1185884284,,,,24,14,OK
+f1,stickiness,Ridge,2018-07-04 00:00:00,22,0,history,0.1074710348,,,,24,14,OK
+f1,stickiness,Ridge,2018-07-05 00:00:00,23,0,history,0.1073094868,,,,24,14,OK
+f1,stickiness,Ridge,2018-07-06 00:00:00,24,0,history,0.1007575758,,,,24,14,OK
+f1,stickiness,Ridge,2018-07-07 00:00:00,25,0,history,0.1003690037,,,,24,14,OK
+f1,stickiness,Ridge,2018-07-08 00:00:00,26,0,history,0.07811934901,,,,24,14,OK
+f1,stickiness,Ridge,2018-07-09 00:00:00,27,0,history,0.09922316384,,,,24,14,OK
+f1,stickiness,Ridge,2018-07-10 00:00:00,28,0,history,0.1039586919,,,,24,14,OK
+f1,stickiness,Ridge,2018-07-11 00:00:00,29,0,history,0.09751176866,,,,24,14,OK
+f1,stickiness,Ridge,2018-07-12 00:00:00,30,0,history,0.1045272969,,,,24,14,OK
+f1,stickiness,Ridge,2018-07-13 00:00:00,31,0,history,0.09825255523,,,,24,14,OK
+f1,stickiness,Ridge,2018-07-14 00:00:00,32,0,history,0.09016661222,,,,24,14,OK
+f1,stickiness,Ridge,2018-07-15 00:00:00,33,0,history,0.07619667861,,,,24,14,OK
+f1,stickiness,Ridge,2018-07-16 00:00:00,34,0,history,0.08831085421,,,,24,14,OK
+f1,stickiness,Ridge,2018-07-17 00:00:00,35,0,history,0.07270980141,,,,24,14,OK
+f1,stickiness,Ridge,2018-07-18 00:00:00,36,0,history,0.08211143695,,,,24,14,OK
+f1,stickiness,Ridge,2018-07-19 00:00:00,37,0,history,0.06925393108,,,,24,14,OK
+f1,stickiness,Ridge,2018-07-20 00:00:00,38,0,history,0.09160305344,,,,24,14,OK
+f1,stickiness,Ridge,2018-07-21 00:00:00,39,0,history,0.09405117979,,,,24,14,OK
+f1,stickiness,Ridge,2018-07-22 00:00:00,40,0,history,0.08325008325,,,,24,14,OK
+f1,stickiness,Ridge,2018-07-23 00:00:00,41,0,history,0.09569856619,,,,24,14,OK
+f1,stickiness,Ridge,2018-07-24 00:00:00,42,0,history,0.09243134628,,,,24,14,OK
+f1,stickiness,Ridge,2018-07-25 00:00:00,43,0,history,0.08918277382,,,,24,14,OK
+f1,stickiness,Ridge,2018-07-26 00:00:00,44,0,history,0.09591836735,,,,24,14,OK
+f1,stickiness,Ridge,2018-07-27 00:00:00,45,0,history,0.1032608696,,,,24,14,OK
+f1,stickiness,Ridge,2018-07-28 00:00:00,46,0,history,0.09810671256,,,,24,14,OK
+f1,stickiness,Ridge,2018-07-29 00:00:00,47,0,history,0.09746791537,,,,24,14,OK
+f1,stickiness,Ridge,2018-07-30 00:00:00,48,0,history,0.1129765652,,,,24,14,OK
+f1,stickiness,Ridge,2018-07-31 00:00:00,49,0,history,0.1106761566,,,,24,14,OK
+f1,stickiness,Ridge,2018-08-01 00:00:00,50,0,history,0.103988604,,,,24,14,OK
+f1,stickiness,Ridge,2018-08-02 00:00:00,51,0,history,0.1102445941,,,,24,14,OK
+f1,stickiness,Ridge,2018-08-03 00:00:00,52,0,history,0.116058906,,,,24,14,OK
+f1,stickiness,Ridge,2018-08-04 00:00:00,53,0,history,0.1114958449,,,,24,14,OK
+f1,stickiness,Ridge,2018-08-05 00:00:00,54,0,history,0.1104273504,,,,24,14,OK
+f1,stickiness,Ridge,2018-08-06 00:00:00,55,0,history,0.09969272789,,,,24,14,OK
+f1,stickiness,Ridge,2018-08-07 00:00:00,56,0,history,0.1034950797,,,,24,14,OK
+f1,stickiness,Ridge,2018-08-08 00:00:00,57,0,history,0.1030201342,,,,24,14,OK
+f1,stickiness,Ridge,2018-08-09 00:00:00,58,0,history,0.09721756621,,,,24,14,OK
+f1,stickiness,Ridge,2018-08-10 00:00:00,59,0,history,0.07448601281,,,,24,14,OK
+f1,stickiness,Ridge,2018-08-11 00:00:00,60,0,history,0.09377115775,,,,24,14,OK
+f1,stickiness,Ridge,2018-08-12 00:00:00,61,0,history,0.09610829103,,,,24,14,OK
+f1,stickiness,Ridge,2018-08-13 00:00:00,62,0,history,0.1050305914,,,,24,14,OK
+f1,stickiness,Ridge,2018-08-14 00:00:00,63,0,history,0.09432048682,,,,24,14,OK
+f1,stickiness,Ridge,2018-08-15 00:00:00,64,0,history,0.08998302207,,,,24,14,OK
+f1,stickiness,Ridge,2018-08-16 00:00:00,65,0,history,0.09470468432,,,,24,14,OK
+f1,stickiness,Ridge,2018-08-17 00:00:00,66,0,history,0.09925725861,,,,24,14,OK
+f1,stickiness,Ridge,2018-08-18 00:00:00,67,0,history,0.09200401472,,,,24,14,OK
+f1,stickiness,Ridge,2018-08-19 00:00:00,68,0,history,0.08553291012,,,,24,14,OK
+f1,stickiness,Ridge,2018-08-20 00:00:00,69,0,history,0.1008347245,,,,24,14,OK
+f1,stickiness,Ridge,2018-08-21 00:00:00,70,0,history,0.1009327115,,,,24,14,OK
+f1,stickiness,Ridge,2018-08-22 00:00:00,71,0,history,0.09024309024,,,,24,14,OK
+f1,stickiness,Ridge,2018-08-23 00:00:00,72,0,history,0.08589572193,,,,24,14,OK
+f1,stickiness,Ridge,2018-08-24 00:00:00,73,0,history,0.08274706868,,,,24,14,OK
+f1,stickiness,Ridge,2018-08-25 00:00:00,74,0,history,0.09652638611,,,,24,14,OK
+f1,stickiness,Ridge,2018-08-26 00:00:00,75,0,history,0.08431703204,,,,24,14,OK
+f1,stickiness,Ridge,2018-08-27 00:00:00,76,0,history,0.08940060955,,,,24,14,OK
+f1,stickiness,Ridge,2018-08-28 00:00:00,77,0,history,0.08228919743,,,,24,14,OK
+f1,stickiness,Ridge,2018-08-29 00:00:00,78,0,history,0.09702767339,,,,24,14,OK
+f1,stickiness,Ridge,2018-08-30 00:00:00,79,0,history,0.08987603306,,,,24,14,OK
+f1,stickiness,Ridge,2018-08-31 00:00:00,80,0,history,0.09647622306,,,,24,14,OK
+f1,stickiness,Ridge,2018-09-01 00:00:00,81,0,history,0.09918478261,,,,24,14,OK
+f1,stickiness,Ridge,2018-09-02 00:00:00,82,0,history,0.02996899759,,,,24,14,OK
+f1,stickiness,Ridge,2018-09-03 00:00:00,83,0,history,0.09993060375,,,,24,14,OK
+f1,stickiness,Ridge,2018-09-04 00:00:00,84,0,history,0.04089479203,,,,24,14,OK
+f1,stickiness,Ridge,2018-09-05 00:00:00,85,0,history,0.06149545772,,,,24,14,OK
+f1,stickiness,Ridge,2018-09-06 00:00:00,86,0,history,0.03590285111,,,,24,14,OK
+f1,stickiness,Ridge,2018-09-07 00:00:00,87,1,forecast_safe,0.03329752954,0.0630339585,0.04393436348,0.08575609865,24,14,OK
+f1,stickiness,Ridge,2018-09-08 00:00:00,88,2,forecast_safe,0.06938483548,0.06529531986,0.04561300361,0.08895089363,24,14,OK
+f1,stickiness,Ridge,2018-09-09 00:00:00,89,3,forecast_safe,0.09307282416,0.04970157818,0.03048112341,0.07070606934,24,14,OK
+f1,stickiness,Ridge,2018-09-10 00:00:00,90,4,forecast_safe,0.06510138741,0.06465608088,0.04620067019,0.08514983893,24,14,OK
+f1,stickiness,Ridge,2018-09-11 00:00:00,91,5,forecast_safe,0.05497664391,0.05214594578,0.03193868663,0.07221949857,24,14,OK
+f1,stickiness,Ridge,2018-09-12 00:00:00,92,6,forecast_safe,0.1121395514,0.05606906506,0.03708434429,0.07492674857,24,14,OK
+f1,stickiness,Ridge,2018-09-13 00:00:00,93,7,forecast_safe,0.06227630637,0.05049051992,0.03050458984,0.07203835069,24,14,OK
+f1,stickiness,Ridge,2018-09-14 00:00:00,94,8,forecast_safe,0.09126559715,0.05631830717,0.03711183007,0.07926569058,24,14,OK
+f1,stickiness,Ridge,2018-09-15 00:00:00,95,9,forecast_safe,0.04193548387,0.0571857693,0.03447889422,0.08020368384,24,14,OK
+f1,stickiness,Ridge,2018-09-16 00:00:00,96,10,forecast_safe,0.02980734278,0.05369434488,0.0300165146,0.0727650008,24,14,OK
+f1,stickiness,Ridge,2018-09-17 00:00:00,97,11,forecast_safe,0.06644640235,0.05688131721,0.03391032698,0.08082710132,24,14,OK
+f1,stickiness,Ridge,2018-09-18 00:00:00,98,12,forecast_safe,0.03097014925,0.05423141683,0.0300174624,0.08003574656,24,14,OK
+f1,stickiness,Ridge,2018-09-19 00:00:00,99,13,forecast_safe,0.03187855787,0.05496229463,0.03137936295,0.07732943173,24,14,OK
+f1,stickiness,Ridge,2018-09-20 00:00:00,100,14,forecast_safe,0.0261616556,0.05373877412,0.03447912613,0.07862676777,24,14,OK
+f1,dau,RandomForest,2018-06-12 00:00:00,0,0,history,134,,,,2,14,h_demo=14 > h_safe_A=2; low CI coverage (29%); DA < 50%
+f1,dau,RandomForest,2018-06-13 00:00:00,1,0,history,144,,,,2,14,h_demo=14 > h_safe_A=2; low CI coverage (29%); DA < 50%
+f1,dau,RandomForest,2018-06-14 00:00:00,2,0,history,142,,,,2,14,h_demo=14 > h_safe_A=2; low CI coverage (29%); DA < 50%
+f1,dau,RandomForest,2018-06-15 00:00:00,3,0,history,145,,,,2,14,h_demo=14 > h_safe_A=2; low CI coverage (29%); DA < 50%
+f1,dau,RandomForest,2018-06-16 00:00:00,4,0,history,112,,,,2,14,h_demo=14 > h_safe_A=2; low CI coverage (29%); DA < 50%
+f1,dau,RandomForest,2018-06-17 00:00:00,5,0,history,128,,,,2,14,h_demo=14 > h_safe_A=2; low CI coverage (29%); DA < 50%
+f1,dau,RandomForest,2018-06-18 00:00:00,6,0,history,395,,,,2,14,h_demo=14 > h_safe_A=2; low CI coverage (29%); DA < 50%
+f1,dau,RandomForest,2018-06-19 00:00:00,7,0,history,384,,,,2,14,h_demo=14 > h_safe_A=2; low CI coverage (29%); DA < 50%
+f1,dau,RandomForest,2018-06-20 00:00:00,8,0,history,267,,,,2,14,h_demo=14 > h_safe_A=2; low CI coverage (29%); DA < 50%
+f1,dau,RandomForest,2018-06-21 00:00:00,9,0,history,274,,,,2,14,h_demo=14 > h_safe_A=2; low CI coverage (29%); DA < 50%
+f1,dau,RandomForest,2018-06-22 00:00:00,10,0,history,289,,,,2,14,h_demo=14 > h_safe_A=2; low CI coverage (29%); DA < 50%
+f1,dau,RandomForest,2018-06-23 00:00:00,11,0,history,301,,,,2,14,h_demo=14 > h_safe_A=2; low CI coverage (29%); DA < 50%
+f1,dau,RandomForest,2018-06-24 00:00:00,12,0,history,258,,,,2,14,h_demo=14 > h_safe_A=2; low CI coverage (29%); DA < 50%
+f1,dau,RandomForest,2018-06-25 00:00:00,13,0,history,356,,,,2,14,h_demo=14 > h_safe_A=2; low CI coverage (29%); DA < 50%
+f1,dau,RandomForest,2018-06-26 00:00:00,14,0,history,345,,,,2,14,h_demo=14 > h_safe_A=2; low CI coverage (29%); DA < 50%
+f1,dau,RandomForest,2018-06-27 00:00:00,15,0,history,278,,,,2,14,h_demo=14 > h_safe_A=2; low CI coverage (29%); DA < 50%
+f1,dau,RandomForest,2018-06-28 00:00:00,16,0,history,363,,,,2,14,h_demo=14 > h_safe_A=2; low CI coverage (29%); DA < 50%
+f1,dau,RandomForest,2018-06-29 00:00:00,17,0,history,322,,,,2,14,h_demo=14 > h_safe_A=2; low CI coverage (29%); DA < 50%
+f1,dau,RandomForest,2018-06-30 00:00:00,18,0,history,329,,,,2,14,h_demo=14 > h_safe_A=2; low CI coverage (29%); DA < 50%
+f1,dau,RandomForest,2018-07-01 00:00:00,19,0,history,355,,,,2,14,h_demo=14 > h_safe_A=2; low CI coverage (29%); DA < 50%
+f1,dau,RandomForest,2018-07-02 00:00:00,20,0,history,282,,,,2,14,h_demo=14 > h_safe_A=2; low CI coverage (29%); DA < 50%
+f1,dau,RandomForest,2018-07-03 00:00:00,21,0,history,289,,,,2,14,h_demo=14 > h_safe_A=2; low CI coverage (29%); DA < 50%
+f1,dau,RandomForest,2018-07-04 00:00:00,22,0,history,269,,,,2,14,h_demo=14 > h_safe_A=2; low CI coverage (29%); DA < 50%
+f1,dau,RandomForest,2018-07-05 00:00:00,23,0,history,276,,,,2,14,h_demo=14 > h_safe_A=2; low CI coverage (29%); DA < 50%
+f1,dau,RandomForest,2018-07-06 00:00:00,24,0,history,266,,,,2,14,h_demo=14 > h_safe_A=2; low CI coverage (29%); DA < 50%
+f1,dau,RandomForest,2018-07-07 00:00:00,25,0,history,272,,,,2,14,h_demo=14 > h_safe_A=2; low CI coverage (29%); DA < 50%
+f1,dau,RandomForest,2018-07-08 00:00:00,26,0,history,216,,,,2,14,h_demo=14 > h_safe_A=2; low CI coverage (29%); DA < 50%
+f1,dau,RandomForest,2018-07-09 00:00:00,27,0,history,281,,,,2,14,h_demo=14 > h_safe_A=2; low CI coverage (29%); DA < 50%
+f1,dau,RandomForest,2018-07-10 00:00:00,28,0,history,302,,,,2,14,h_demo=14 > h_safe_A=2; low CI coverage (29%); DA < 50%
+f1,dau,RandomForest,2018-07-11 00:00:00,29,0,history,290,,,,2,14,h_demo=14 > h_safe_A=2; low CI coverage (29%); DA < 50%
+f1,dau,RandomForest,2018-07-12 00:00:00,30,0,history,314,,,,2,14,h_demo=14 > h_safe_A=2; low CI coverage (29%); DA < 50%
+f1,dau,RandomForest,2018-07-13 00:00:00,31,0,history,298,,,,2,14,h_demo=14 > h_safe_A=2; low CI coverage (29%); DA < 50%
+f1,dau,RandomForest,2018-07-14 00:00:00,32,0,history,276,,,,2,14,h_demo=14 > h_safe_A=2; low CI coverage (29%); DA < 50%
+f1,dau,RandomForest,2018-07-15 00:00:00,33,0,history,234,,,,2,14,h_demo=14 > h_safe_A=2; low CI coverage (29%); DA < 50%
+f1,dau,RandomForest,2018-07-16 00:00:00,34,0,history,275,,,,2,14,h_demo=14 > h_safe_A=2; low CI coverage (29%); DA < 50%
+f1,dau,RandomForest,2018-07-17 00:00:00,35,0,history,227,,,,2,14,h_demo=14 > h_safe_A=2; low CI coverage (29%); DA < 50%
+f1,dau,RandomForest,2018-07-18 00:00:00,36,0,history,252,,,,2,14,h_demo=14 > h_safe_A=2; low CI coverage (29%); DA < 50%
+f1,dau,RandomForest,2018-07-19 00:00:00,37,0,history,207,,,,2,14,h_demo=14 > h_safe_A=2; low CI coverage (29%); DA < 50%
+f1,dau,RandomForest,2018-07-20 00:00:00,38,0,history,276,,,,2,14,h_demo=14 > h_safe_A=2; low CI coverage (29%); DA < 50%
+f1,dau,RandomForest,2018-07-21 00:00:00,39,0,history,283,,,,2,14,h_demo=14 > h_safe_A=2; low CI coverage (29%); DA < 50%
+f1,dau,RandomForest,2018-07-22 00:00:00,40,0,history,250,,,,2,14,h_demo=14 > h_safe_A=2; low CI coverage (29%); DA < 50%
+f1,dau,RandomForest,2018-07-23 00:00:00,41,0,history,287,,,,2,14,h_demo=14 > h_safe_A=2; low CI coverage (29%); DA < 50%
+f1,dau,RandomForest,2018-07-24 00:00:00,42,0,history,276,,,,2,14,h_demo=14 > h_safe_A=2; low CI coverage (29%); DA < 50%
+f1,dau,RandomForest,2018-07-25 00:00:00,43,0,history,263,,,,2,14,h_demo=14 > h_safe_A=2; low CI coverage (29%); DA < 50%
+f1,dau,RandomForest,2018-07-26 00:00:00,44,0,history,282,,,,2,14,h_demo=14 > h_safe_A=2; low CI coverage (29%); DA < 50%
+f1,dau,RandomForest,2018-07-27 00:00:00,45,0,history,304,,,,2,14,h_demo=14 > h_safe_A=2; low CI coverage (29%); DA < 50%
+f1,dau,RandomForest,2018-07-28 00:00:00,46,0,history,285,,,,2,14,h_demo=14 > h_safe_A=2; low CI coverage (29%); DA < 50%
+f1,dau,RandomForest,2018-07-29 00:00:00,47,0,history,281,,,,2,14,h_demo=14 > h_safe_A=2; low CI coverage (29%); DA < 50%
+f1,dau,RandomForest,2018-07-30 00:00:00,48,0,history,323,,,,2,14,h_demo=14 > h_safe_A=2; low CI coverage (29%); DA < 50%
+f1,dau,RandomForest,2018-07-31 00:00:00,49,0,history,311,,,,2,14,h_demo=14 > h_safe_A=2; low CI coverage (29%); DA < 50%
+f1,dau,RandomForest,2018-08-01 00:00:00,50,0,history,292,,,,2,14,h_demo=14 > h_safe_A=2; low CI coverage (29%); DA < 50%
+f1,dau,RandomForest,2018-08-02 00:00:00,51,0,history,311,,,,2,14,h_demo=14 > h_safe_A=2; low CI coverage (29%); DA < 50%
+f1,dau,RandomForest,2018-08-03 00:00:00,52,0,history,331,,,,2,14,h_demo=14 > h_safe_A=2; low CI coverage (29%); DA < 50%
+f1,dau,RandomForest,2018-08-04 00:00:00,53,0,history,322,,,,2,14,h_demo=14 > h_safe_A=2; low CI coverage (29%); DA < 50%
+f1,dau,RandomForest,2018-08-05 00:00:00,54,0,history,323,,,,2,14,h_demo=14 > h_safe_A=2; low CI coverage (29%); DA < 50%
+f1,dau,RandomForest,2018-08-06 00:00:00,55,0,history,292,,,,2,14,h_demo=14 > h_safe_A=2; low CI coverage (29%); DA < 50%
+f1,dau,RandomForest,2018-08-07 00:00:00,56,0,history,305,,,,2,14,h_demo=14 > h_safe_A=2; low CI coverage (29%); DA < 50%
+f1,dau,RandomForest,2018-08-08 00:00:00,57,0,history,307,,,,2,14,h_demo=14 > h_safe_A=2; low CI coverage (29%); DA < 50%
+f1,dau,RandomForest,2018-08-09 00:00:00,58,0,history,290,,,,2,14,h_demo=14 > h_safe_A=2; low CI coverage (29%); DA < 50%
+f1,dau,RandomForest,2018-08-10 00:00:00,59,0,history,221,,,,2,14,h_demo=14 > h_safe_A=2; low CI coverage (29%); DA < 50%
+f1,dau,RandomForest,2018-08-11 00:00:00,60,0,history,277,,,,2,14,h_demo=14 > h_safe_A=2; low CI coverage (29%); DA < 50%
+f1,dau,RandomForest,2018-08-12 00:00:00,61,0,history,284,,,,2,14,h_demo=14 > h_safe_A=2; low CI coverage (29%); DA < 50%
+f1,dau,RandomForest,2018-08-13 00:00:00,62,0,history,309,,,,2,14,h_demo=14 > h_safe_A=2; low CI coverage (29%); DA < 50%
+f1,dau,RandomForest,2018-08-14 00:00:00,63,0,history,279,,,,2,14,h_demo=14 > h_safe_A=2; low CI coverage (29%); DA < 50%
+f1,dau,RandomForest,2018-08-15 00:00:00,64,0,history,265,,,,2,14,h_demo=14 > h_safe_A=2; low CI coverage (29%); DA < 50%
+f1,dau,RandomForest,2018-08-16 00:00:00,65,0,history,279,,,,2,14,h_demo=14 > h_safe_A=2; low CI coverage (29%); DA < 50%
+f1,dau,RandomForest,2018-08-17 00:00:00,66,0,history,294,,,,2,14,h_demo=14 > h_safe_A=2; low CI coverage (29%); DA < 50%
+f1,dau,RandomForest,2018-08-18 00:00:00,67,0,history,275,,,,2,14,h_demo=14 > h_safe_A=2; low CI coverage (29%); DA < 50%
+f1,dau,RandomForest,2018-08-19 00:00:00,68,0,history,256,,,,2,14,h_demo=14 > h_safe_A=2; low CI coverage (29%); DA < 50%
+f1,dau,RandomForest,2018-08-20 00:00:00,69,0,history,302,,,,2,14,h_demo=14 > h_safe_A=2; low CI coverage (29%); DA < 50%
+f1,dau,RandomForest,2018-08-21 00:00:00,70,0,history,303,,,,2,14,h_demo=14 > h_safe_A=2; low CI coverage (29%); DA < 50%
+f1,dau,RandomForest,2018-08-22 00:00:00,71,0,history,271,,,,2,14,h_demo=14 > h_safe_A=2; low CI coverage (29%); DA < 50%
+f1,dau,RandomForest,2018-08-23 00:00:00,72,0,history,257,,,,2,14,h_demo=14 > h_safe_A=2; low CI coverage (29%); DA < 50%
+f1,dau,RandomForest,2018-08-24 00:00:00,73,0,history,247,,,,2,14,h_demo=14 > h_safe_A=2; low CI coverage (29%); DA < 50%
+f1,dau,RandomForest,2018-08-25 00:00:00,74,0,history,289,,,,2,14,h_demo=14 > h_safe_A=2; low CI coverage (29%); DA < 50%
+f1,dau,RandomForest,2018-08-26 00:00:00,75,0,history,250,,,,2,14,h_demo=14 > h_safe_A=2; low CI coverage (29%); DA < 50%
+f1,dau,RandomForest,2018-08-27 00:00:00,76,0,history,264,,,,2,14,h_demo=14 > h_safe_A=2; low CI coverage (29%); DA < 50%
+f1,dau,RandomForest,2018-08-28 00:00:00,77,0,history,243,,,,2,14,h_demo=14 > h_safe_A=2; low CI coverage (29%); DA < 50%
+f1,dau,RandomForest,2018-08-29 00:00:00,78,0,history,284,,,,2,14,h_demo=14 > h_safe_A=2; low CI coverage (29%); DA < 50%
+f1,dau,RandomForest,2018-08-30 00:00:00,79,0,history,261,,,,2,14,h_demo=14 > h_safe_A=2; low CI coverage (29%); DA < 50%
+f1,dau,RandomForest,2018-08-31 00:00:00,80,0,history,282,,,,2,14,h_demo=14 > h_safe_A=2; low CI coverage (29%); DA < 50%
+f1,dau,RandomForest,2018-09-01 00:00:00,81,0,history,292,,,,2,14,h_demo=14 > h_safe_A=2; low CI coverage (29%); DA < 50%
+f1,dau,RandomForest,2018-09-02 00:00:00,82,0,history,87,,,,2,14,h_demo=14 > h_safe_A=2; low CI coverage (29%); DA < 50%
+f1,dau,RandomForest,2018-09-03 00:00:00,83,0,history,288,,,,2,14,h_demo=14 > h_safe_A=2; low CI coverage (29%); DA < 50%
+f1,dau,RandomForest,2018-09-04 00:00:00,84,0,history,117,,,,2,14,h_demo=14 > h_safe_A=2; low CI coverage (29%); DA < 50%
+f1,dau,RandomForest,2018-09-05 00:00:00,85,0,history,176,,,,2,14,h_demo=14 > h_safe_A=2; low CI coverage (29%); DA < 50%
+f1,dau,RandomForest,2018-09-06 00:00:00,86,0,history,102,,,,2,14,h_demo=14 > h_safe_A=2; low CI coverage (29%); DA < 50%
+f1,dau,RandomForest,2018-09-07 00:00:00,87,1,forecast_safe,93,130.04,117.8709444,144.5171126,2,14,h_demo=14 > h_safe_A=2; low CI coverage (29%); DA < 50%
+f1,dau,RandomForest,2018-09-08 00:00:00,88,2,forecast_safe,194,130.04,117.4466922,145.0934122,2,14,h_demo=14 > h_safe_A=2; low CI coverage (29%); DA < 50%
+f1,dau,RandomForest,2018-09-09 00:00:00,89,3,forecast_demo,262,119.76,107.6230208,133.1949727,2,14,h_demo=14 > h_safe_A=2; low CI coverage (29%); DA < 50%
+f1,dau,RandomForest,2018-09-10 00:00:00,90,4,forecast_demo,183,130.04,118.0688661,143.3189869,2,14,h_demo=14 > h_safe_A=2; low CI coverage (29%); DA < 50%
+f1,dau,RandomForest,2018-09-11 00:00:00,91,5,forecast_demo,153,119.76,106.9486747,133.2273555,2,14,h_demo=14 > h_safe_A=2; low CI coverage (29%); DA < 50%
+f1,dau,RandomForest,2018-09-12 00:00:00,92,6,forecast_demo,315,119.76,107.8100654,132.3400924,2,14,h_demo=14 > h_safe_A=2; low CI coverage (29%); DA < 50%
+f1,dau,RandomForest,2018-09-13 00:00:00,93,7,forecast_demo,174,119.76,106.9882683,133.3155317,2,14,h_demo=14 > h_safe_A=2; low CI coverage (29%); DA < 50%
+f1,dau,RandomForest,2018-09-14 00:00:00,94,8,forecast_demo,256,119.76,107.9332905,133.0959509,2,14,h_demo=14 > h_safe_A=2; low CI coverage (29%); DA < 50%
+f1,dau,RandomForest,2018-09-15 00:00:00,95,9,forecast_demo,117,119.76,104.7292163,133.4407617,2,14,h_demo=14 > h_safe_A=2; low CI coverage (29%); DA < 50%
+f1,dau,RandomForest,2018-09-16 00:00:00,96,10,forecast_demo,82,119.76,105.554049,132.0159088,2,14,h_demo=14 > h_safe_A=2; low CI coverage (29%); DA < 50%
+f1,dau,RandomForest,2018-09-17 00:00:00,97,11,forecast_demo,181,119.76,106.22333,135.2966838,2,14,h_demo=14 > h_safe_A=2; low CI coverage (29%); DA < 50%
+f1,dau,RandomForest,2018-09-18 00:00:00,98,12,forecast_demo,83,119.76,103.7892188,134.2207282,2,14,h_demo=14 > h_safe_A=2; low CI coverage (29%); DA < 50%
+f1,dau,RandomForest,2018-09-19 00:00:00,99,13,forecast_demo,84,119.76,106.2695107,133.9029878,2,14,h_demo=14 > h_safe_A=2; low CI coverage (29%); DA < 50%
+f1,dau,RandomForest,2018-09-20 00:00:00,100,14,forecast_demo,67,119.76,107.2475238,135.3143028,2,14,h_demo=14 > h_safe_A=2; low CI coverage (29%); DA < 50%
+f1,retention_d7,LocalLinear,2018-06-12 00:00:00,0,0,history,,,,,3,14,h_demo=14 > h_safe_A=3
+f1,retention_d7,LocalLinear,2018-06-13 00:00:00,1,0,history,0.1,,,,3,14,h_demo=14 > h_safe_A=3
+f1,retention_d7,LocalLinear,2018-06-14 00:00:00,2,0,history,0.05,,,,3,14,h_demo=14 > h_safe_A=3
+f1,retention_d7,LocalLinear,2018-06-15 00:00:00,3,0,history,0.08333333333,,,,3,14,h_demo=14 > h_safe_A=3
+f1,retention_d7,LocalLinear,2018-06-16 00:00:00,4,0,history,,,,,3,14,h_demo=14 > h_safe_A=3
+f1,retention_d7,LocalLinear,2018-06-17 00:00:00,5,0,history,0.07692307692,,,,3,14,h_demo=14 > h_safe_A=3
+f1,retention_d7,LocalLinear,2018-06-18 00:00:00,6,0,history,,,,,3,14,h_demo=14 > h_safe_A=3
+f1,retention_d7,LocalLinear,2018-06-19 00:00:00,7,0,history,,,,,3,14,h_demo=14 > h_safe_A=3
+f1,retention_d7,LocalLinear,2018-06-20 00:00:00,8,0,history,0.03846153846,,,,3,14,h_demo=14 > h_safe_A=3
+f1,retention_d7,LocalLinear,2018-06-21 00:00:00,9,0,history,0.03225806452,,,,3,14,h_demo=14 > h_safe_A=3
+f1,retention_d7,LocalLinear,2018-06-22 00:00:00,10,0,history,0.12,,,,3,14,h_demo=14 > h_safe_A=3
+f1,retention_d7,LocalLinear,2018-06-23 00:00:00,11,0,history,0.04545454545,,,,3,14,h_demo=14 > h_safe_A=3
+f1,retention_d7,LocalLinear,2018-06-24 00:00:00,12,0,history,0.08333333333,,,,3,14,h_demo=14 > h_safe_A=3
+f1,retention_d7,LocalLinear,2018-06-25 00:00:00,13,0,history,,,,,3,14,h_demo=14 > h_safe_A=3
+f1,retention_d7,LocalLinear,2018-06-26 00:00:00,14,0,history,,,,,3,14,h_demo=14 > h_safe_A=3
+f1,retention_d7,LocalLinear,2018-06-27 00:00:00,15,0,history,0.1764705882,,,,3,14,h_demo=14 > h_safe_A=3
+f1,retention_d7,LocalLinear,2018-06-28 00:00:00,16,0,history,,,,,3,14,h_demo=14 > h_safe_A=3
+f1,retention_d7,LocalLinear,2018-06-29 00:00:00,17,0,history,0.03448275862,,,,3,14,h_demo=14 > h_safe_A=3
+f1,retention_d7,LocalLinear,2018-06-30 00:00:00,18,0,history,,,,,3,14,h_demo=14 > h_safe_A=3
+f1,retention_d7,LocalLinear,2018-07-01 00:00:00,19,0,history,,,,,3,14,h_demo=14 > h_safe_A=3
+f1,retention_d7,LocalLinear,2018-07-02 00:00:00,20,0,history,0.05263157895,,,,3,14,h_demo=14 > h_safe_A=3
+f1,retention_d7,LocalLinear,2018-07-03 00:00:00,21,0,history,0.03448275862,,,,3,14,h_demo=14 > h_safe_A=3
+f1,retention_d7,LocalLinear,2018-07-04 00:00:00,22,0,history,0.04761904762,,,,3,14,h_demo=14 > h_safe_A=3
+f1,retention_d7,LocalLinear,2018-07-05 00:00:00,23,0,history,,,,,3,14,h_demo=14 > h_safe_A=3
+f1,retention_d7,LocalLinear,2018-07-06 00:00:00,24,0,history,0.06666666667,,,,3,14,h_demo=14 > h_safe_A=3
+f1,retention_d7,LocalLinear,2018-07-07 00:00:00,25,0,history,0.15,,,,3,14,h_demo=14 > h_safe_A=3
+f1,retention_d7,LocalLinear,2018-07-08 00:00:00,26,0,history,0.1904761905,,,,3,14,h_demo=14 > h_safe_A=3
+f1,retention_d7,LocalLinear,2018-07-09 00:00:00,27,0,history,0.08,,,,3,14,h_demo=14 > h_safe_A=3
+f1,retention_d7,LocalLinear,2018-07-10 00:00:00,28,0,history,0.08823529412,,,,3,14,h_demo=14 > h_safe_A=3
+f1,retention_d7,LocalLinear,2018-07-11 00:00:00,29,0,history,0.07894736842,,,,3,14,h_demo=14 > h_safe_A=3
+f1,retention_d7,LocalLinear,2018-07-12 00:00:00,30,0,history,0.1333333333,,,,3,14,h_demo=14 > h_safe_A=3
+f1,retention_d7,LocalLinear,2018-07-13 00:00:00,31,0,history,,,,,3,14,h_demo=14 > h_safe_A=3
+f1,retention_d7,LocalLinear,2018-07-14 00:00:00,32,0,history,0.09677419355,,,,3,14,h_demo=14 > h_safe_A=3
+f1,retention_d7,LocalLinear,2018-07-15 00:00:00,33,0,history,0.05,,,,3,14,h_demo=14 > h_safe_A=3
+f1,retention_d7,LocalLinear,2018-07-16 00:00:00,34,0,history,0.1379310345,,,,3,14,h_demo=14 > h_safe_A=3
+f1,retention_d7,LocalLinear,2018-07-17 00:00:00,35,0,history,0.1578947368,,,,3,14,h_demo=14 > h_safe_A=3
+f1,retention_d7,LocalLinear,2018-07-18 00:00:00,36,0,history,0.1111111111,,,,3,14,h_demo=14 > h_safe_A=3
+f1,retention_d7,LocalLinear,2018-07-19 00:00:00,37,0,history,0.07692307692,,,,3,14,h_demo=14 > h_safe_A=3
+f1,retention_d7,LocalLinear,2018-07-20 00:00:00,38,0,history,0.05405405405,,,,3,14,h_demo=14 > h_safe_A=3
+f1,retention_d7,LocalLinear,2018-07-21 00:00:00,39,0,history,,,,,3,14,h_demo=14 > h_safe_A=3
+f1,retention_d7,LocalLinear,2018-07-22 00:00:00,40,0,history,0.1071428571,,,,3,14,h_demo=14 > h_safe_A=3
+f1,retention_d7,LocalLinear,2018-07-23 00:00:00,41,0,history,0.1153846154,,,,3,14,h_demo=14 > h_safe_A=3
+f1,retention_d7,LocalLinear,2018-07-24 00:00:00,42,0,history,0.1333333333,,,,3,14,h_demo=14 > h_safe_A=3
+f1,retention_d7,LocalLinear,2018-07-25 00:00:00,43,0,history,0.07692307692,,,,3,14,h_demo=14 > h_safe_A=3
+f1,retention_d7,LocalLinear,2018-07-26 00:00:00,44,0,history,0.05882352941,,,,3,14,h_demo=14 > h_safe_A=3
+f1,retention_d7,LocalLinear,2018-07-27 00:00:00,45,0,history,0.1111111111,,,,3,14,h_demo=14 > h_safe_A=3
+f1,retention_d7,LocalLinear,2018-07-28 00:00:00,46,0,history,0.05714285714,,,,3,14,h_demo=14 > h_safe_A=3
+f1,retention_d7,LocalLinear,2018-07-29 00:00:00,47,0,history,0.1666666667,,,,3,14,h_demo=14 > h_safe_A=3
+f1,retention_d7,LocalLinear,2018-07-30 00:00:00,48,0,history,0.05882352941,,,,3,14,h_demo=14 > h_safe_A=3
+f1,retention_d7,LocalLinear,2018-07-31 00:00:00,49,0,history,0.06382978723,,,,3,14,h_demo=14 > h_safe_A=3
+f1,retention_d7,LocalLinear,2018-08-01 00:00:00,50,0,history,0.05,,,,3,14,h_demo=14 > h_safe_A=3
+f1,retention_d7,LocalLinear,2018-08-02 00:00:00,51,0,history,0.1020408163,,,,3,14,h_demo=14 > h_safe_A=3
+f1,retention_d7,LocalLinear,2018-08-03 00:00:00,52,0,history,0.04,,,,3,14,h_demo=14 > h_safe_A=3
+f1,retention_d7,LocalLinear,2018-08-04 00:00:00,53,0,history,0.01886792453,,,,3,14,h_demo=14 > h_safe_A=3
+f1,retention_d7,LocalLinear,2018-08-05 00:00:00,54,0,history,0.05454545455,,,,3,14,h_demo=14 > h_safe_A=3
+f1,retention_d7,LocalLinear,2018-08-06 00:00:00,55,0,history,0.02941176471,,,,3,14,h_demo=14 > h_safe_A=3
+f1,retention_d7,LocalLinear,2018-08-07 00:00:00,56,0,history,0.02631578947,,,,3,14,h_demo=14 > h_safe_A=3
+f1,retention_d7,LocalLinear,2018-08-08 00:00:00,57,0,history,0.1315789474,,,,3,14,h_demo=14 > h_safe_A=3
+f1,retention_d7,LocalLinear,2018-08-09 00:00:00,58,0,history,,,,,3,14,h_demo=14 > h_safe_A=3
+f1,retention_d7,LocalLinear,2018-08-10 00:00:00,59,0,history,,,,,3,14,h_demo=14 > h_safe_A=3
+f1,retention_d7,LocalLinear,2018-08-11 00:00:00,60,0,history,0.04761904762,,,,3,14,h_demo=14 > h_safe_A=3
+f1,retention_d7,LocalLinear,2018-08-12 00:00:00,61,0,history,0.08333333333,,,,3,14,h_demo=14 > h_safe_A=3
+f1,retention_d7,LocalLinear,2018-08-13 00:00:00,62,0,history,0.03225806452,,,,3,14,h_demo=14 > h_safe_A=3
+f1,retention_d7,LocalLinear,2018-08-14 00:00:00,63,0,history,0.1379310345,,,,3,14,h_demo=14 > h_safe_A=3
+f1,retention_d7,LocalLinear,2018-08-15 00:00:00,64,0,history,0.1764705882,,,,3,14,h_demo=14 > h_safe_A=3
+f1,retention_d7,LocalLinear,2018-08-16 00:00:00,65,0,history,0.05263157895,,,,3,14,h_demo=14 > h_safe_A=3
+f1,retention_d7,LocalLinear,2018-08-17 00:00:00,66,0,history,0.03448275862,,,,3,14,h_demo=14 > h_safe_A=3
+f1,retention_d7,LocalLinear,2018-08-18 00:00:00,67,0,history,0.09090909091,,,,3,14,h_demo=14 > h_safe_A=3
+f1,retention_d7,LocalLinear,2018-08-19 00:00:00,68,0,history,0.1034482759,,,,3,14,h_demo=14 > h_safe_A=3
+f1,retention_d7,LocalLinear,2018-08-20 00:00:00,69,0,history,0.03571428571,,,,3,14,h_demo=14 > h_safe_A=3
+f1,retention_d7,LocalLinear,2018-08-21 00:00:00,70,0,history,0.1153846154,,,,3,14,h_demo=14 > h_safe_A=3
+f1,retention_d7,LocalLinear,2018-08-22 00:00:00,71,0,history,0.0625,,,,3,14,h_demo=14 > h_safe_A=3
+f1,retention_d7,LocalLinear,2018-08-23 00:00:00,72,0,history,0.125,,,,3,14,h_demo=14 > h_safe_A=3
+f1,retention_d7,LocalLinear,2018-08-24 00:00:00,73,0,history,,,,,3,14,h_demo=14 > h_safe_A=3
+f1,retention_d7,LocalLinear,2018-08-25 00:00:00,74,0,history,0.03703703704,,,,3,14,h_demo=14 > h_safe_A=3
+f1,retention_d7,LocalLinear,2018-08-26 00:00:00,75,0,history,,,,,3,14,h_demo=14 > h_safe_A=3
+f1,retention_d7,LocalLinear,2018-08-27 00:00:00,76,0,history,0.02857142857,,,,3,14,h_demo=14 > h_safe_A=3
+f1,retention_d7,LocalLinear,2018-08-28 00:00:00,77,0,history,0.08333333333,,,,3,14,h_demo=14 > h_safe_A=3
+f1,retention_d7,LocalLinear,2018-08-29 00:00:00,78,0,history,0.04166666667,,,,3,14,h_demo=14 > h_safe_A=3
+f1,retention_d7,LocalLinear,2018-08-30 00:00:00,79,0,history,0.06896551724,,,,3,14,h_demo=14 > h_safe_A=3
+f1,retention_d7,LocalLinear,2018-08-31 00:00:00,80,0,history,,,,,3,14,h_demo=14 > h_safe_A=3
+f1,retention_d7,LocalLinear,2018-09-01 00:00:00,81,0,history,0.01818181818,,,,3,14,h_demo=14 > h_safe_A=3
+f1,retention_d7,LocalLinear,2018-09-02 00:00:00,82,0,history,,,,,3,14,h_demo=14 > h_safe_A=3
+f1,retention_d7,LocalLinear,2018-09-03 00:00:00,83,0,history,,,,,3,14,h_demo=14 > h_safe_A=3
+f1,retention_d7,LocalLinear,2018-09-04 00:00:00,84,0,history,,,,,3,14,h_demo=14 > h_safe_A=3
+f1,retention_d7,LocalLinear,2018-09-05 00:00:00,85,0,history,0.06451612903,,,,3,14,h_demo=14 > h_safe_A=3
+f1,retention_d7,LocalLinear,2018-09-06 00:00:00,86,0,history,,,,,3,14,h_demo=14 > h_safe_A=3
+f1,retention_d7,LocalLinear,2018-09-07 00:00:00,87,1,forecast_safe,0.08333333333,0.03619994904,0.01450871283,0.06200527678,3,14,h_demo=14 > h_safe_A=3
+f1,retention_d7,LocalLinear,2018-09-08 00:00:00,88,2,forecast_safe,0.06666666667,0.003406598062,-0.01905103095,0.03046227506,3,14,h_demo=14 > h_safe_A=3
+f1,retention_d7,LocalLinear,2018-09-09 00:00:00,89,3,forecast_safe,,0.001436227713,-0.02032599422,0.02518500224,3,14,h_demo=14 > h_safe_A=3
+f1,retention_d7,LocalLinear,2018-09-10 00:00:00,90,4,forecast_demo,0.06896551724,0.001358071712,-0.01947202432,0.02484371044,3,14,h_demo=14 > h_safe_A=3
+f1,retention_d7,LocalLinear,2018-09-11 00:00:00,91,5,forecast_demo,,0.001355062198,-0.02148719852,0.02476595344,3,14,h_demo=14 > h_safe_A=3
+f1,retention_d7,LocalLinear,2018-09-12 00:00:00,92,6,forecast_demo,,0.03103891729,0.009462045986,0.05272321036,3,14,h_demo=14 > h_safe_A=3
+f1,retention_d7,LocalLinear,2018-09-13 00:00:00,93,7,forecast_demo,,0.03292992028,0.0102618504,0.05752376736,3,14,h_demo=14 > h_safe_A=3
+f1,retention_d7,LocalLinear,2018-09-14 00:00:00,94,8,forecast_demo,0.03703703704,0.01512254553,-0.00829411336,0.04528698459,3,14,h_demo=14 > h_safe_A=3
+f1,retention_d7,LocalLinear,2018-09-15 00:00:00,95,9,forecast_demo,0.03846153846,-0.008133264786,-0.03663467199,0.02424973126,3,14,h_demo=14 > h_safe_A=3
+f1,retention_d7,LocalLinear,2018-09-16 00:00:00,96,10,forecast_demo,,-0.01036852824,-0.04087225044,0.01697250432,3,14,h_demo=14 > h_safe_A=3
+f1,retention_d7,LocalLinear,2018-09-17 00:00:00,97,11,forecast_demo,0.04166666667,-0.01047161965,-0.03687517141,0.01809737565,3,14,h_demo=14 > h_safe_A=3
+f1,retention_d7,LocalLinear,2018-09-18 00:00:00,98,12,forecast_demo,0.2222222222,-0.01047581931,-0.0366821263,0.02235523223,3,14,h_demo=14 > h_safe_A=3
+f1,retention_d7,LocalLinear,2018-09-19 00:00:00,99,13,forecast_demo,0.07142857143,0.009449563576,-0.0208468804,0.03801974209,3,14,h_demo=14 > h_safe_A=3
+f1,retention_d7,LocalLinear,2018-09-20 00:00:00,100,14,forecast_demo,,0.01147638245,-0.01280065663,0.04432969807,3,14,h_demo=14 > h_safe_A=3
+f2,stickiness,Ridge,2018-06-12 00:00:00,0,0,history,1,,,,24,14,OK
+f2,stickiness,Ridge,2018-06-13 00:00:00,1,0,history,0.684501845,,,,24,14,OK
+f2,stickiness,Ridge,2018-06-14 00:00:00,2,0,history,0.5209235209,,,,24,14,OK
+f2,stickiness,Ridge,2018-06-15 00:00:00,3,0,history,0.4203431373,,,,24,14,OK
+f2,stickiness,Ridge,2018-06-16 00:00:00,4,0,history,0.3344155844,,,,24,14,OK
+f2,stickiness,Ridge,2018-06-17 00:00:00,5,0,history,0.3103448276,,,,24,14,OK
+f2,stickiness,Ridge,2018-06-18 00:00:00,6,0,history,0.534939759,,,,24,14,OK
+f2,stickiness,Ridge,2018-06-19 00:00:00,7,0,history,0.4254473161,,,,24,14,OK
+f2,stickiness,Ridge,2018-06-20 00:00:00,8,0,history,0.06116504854,,,,24,14,OK
+f2,stickiness,Ridge,2018-06-21 00:00:00,9,0,history,0.06549596583,,,,24,14,OK
+f2,stickiness,Ridge,2018-06-22 00:00:00,10,0,history,0.07162661738,,,,24,14,OK
+f2,stickiness,Ridge,2018-06-23 00:00:00,11,0,history,0.07171853857,,,,24,14,OK
+f2,stickiness,Ridge,2018-06-24 00:00:00,12,0,history,0.06238938053,,,,24,14,OK
+f2,stickiness,Ridge,2018-06-25 00:00:00,13,0,history,0.3383371824,,,,24,14,OK
+f2,stickiness,Ridge,2018-06-26 00:00:00,14,0,history,0.2948179272,,,,24,14,OK
+f2,stickiness,Ridge,2018-06-27 00:00:00,15,0,history,0.04572220298,,,,24,14,OK
+f2,stickiness,Ridge,2018-06-28 00:00:00,16,0,history,0.2705436157,,,,24,14,OK
+f2,stickiness,Ridge,2018-06-29 00:00:00,17,0,history,0.05693839452,,,,24,14,OK
+f2,stickiness,Ridge,2018-06-30 00:00:00,18,0,history,0.2526496706,,,,24,14,OK
+f2,stickiness,Ridge,2018-07-01 00:00:00,19,0,history,0.2324338766,,,,24,14,OK
+f2,stickiness,Ridge,2018-07-02 00:00:00,20,0,history,0.04475635593,,,,24,14,OK
+f2,stickiness,Ridge,2018-07-03 00:00:00,21,0,history,0.03909734978,,,,24,14,OK
+f2,stickiness,Ridge,2018-07-04 00:00:00,22,0,history,0.04051948052,,,,24,14,OK
+f2,stickiness,Ridge,2018-07-05 00:00:00,23,0,history,0.03858024691,,,,24,14,OK
+f2,stickiness,Ridge,2018-07-06 00:00:00,24,0,history,0.03778401838,,,,24,14,OK
+f2,stickiness,Ridge,2018-07-07 00:00:00,25,0,history,0.04678806272,,,,24,14,OK
+f2,stickiness,Ridge,2018-07-08 00:00:00,26,0,history,0.04212637914,,,,24,14,OK
+f2,stickiness,Ridge,2018-07-09 00:00:00,27,0,history,0.03510082151,,,,24,14,OK
+f2,stickiness,Ridge,2018-07-10 00:00:00,28,0,history,0.03714710253,,,,24,14,OK
+f2,stickiness,Ridge,2018-07-11 00:00:00,29,0,history,0.03343988198,,,,24,14,OK
+f2,stickiness,Ridge,2018-07-12 00:00:00,30,0,history,0.03444857497,,,,24,14,OK
+f2,stickiness,Ridge,2018-07-13 00:00:00,31,0,history,0.0430645969,,,,24,14,OK
+f2,stickiness,Ridge,2018-07-14 00:00:00,32,0,history,0.03498985801,,,,24,14,OK
+f2,stickiness,Ridge,2018-07-15 00:00:00,33,0,history,0.04440451745,,,,24,14,OK
+f2,stickiness,Ridge,2018-07-16 00:00:00,34,0,history,0.03410570164,,,,24,14,OK
+f2,stickiness,Ridge,2018-07-17 00:00:00,35,0,history,0.03712480253,,,,24,14,OK
+f2,stickiness,Ridge,2018-07-18 00:00:00,36,0,history,0.03494548504,,,,24,14,OK
+f2,stickiness,Ridge,2018-07-19 00:00:00,37,0,history,0.04162923031,,,,24,14,OK
+f2,stickiness,Ridge,2018-07-20 00:00:00,38,0,history,0.04631012847,,,,24,14,OK
+f2,stickiness,Ridge,2018-07-21 00:00:00,39,0,history,0.06609365738,,,,24,14,OK
+f2,stickiness,Ridge,2018-07-22 00:00:00,40,0,history,0.04831061055,,,,24,14,OK
+f2,stickiness,Ridge,2018-07-23 00:00:00,41,0,history,0.04507710558,,,,24,14,OK
+f2,stickiness,Ridge,2018-07-24 00:00:00,42,0,history,0.04705534182,,,,24,14,OK
+f2,stickiness,Ridge,2018-07-25 00:00:00,43,0,history,0.04777070064,,,,24,14,OK
+f2,stickiness,Ridge,2018-07-26 00:00:00,44,0,history,0.04808704809,,,,24,14,OK
+f2,stickiness,Ridge,2018-07-27 00:00:00,45,0,history,0.05676243868,,,,24,14,OK
+f2,stickiness,Ridge,2018-07-28 00:00:00,46,0,history,0.0786963434,,,,24,14,OK
+f2,stickiness,Ridge,2018-07-29 00:00:00,47,0,history,0.08297115765,,,,24,14,OK
+f2,stickiness,Ridge,2018-07-30 00:00:00,48,0,history,0.07757404795,,,,24,14,OK
+f2,stickiness,Ridge,2018-07-31 00:00:00,49,0,history,0.09396433471,,,,24,14,OK
+f2,stickiness,Ridge,2018-08-01 00:00:00,50,0,history,0.105657805,,,,24,14,OK
+f2,stickiness,Ridge,2018-08-02 00:00:00,51,0,history,0.1356275304,,,,24,14,OK
+f2,stickiness,Ridge,2018-08-03 00:00:00,52,0,history,0.1453449431,,,,24,14,OK
+f2,stickiness,Ridge,2018-08-04 00:00:00,53,0,history,0.1510045366,,,,24,14,OK
+f2,stickiness,Ridge,2018-08-05 00:00:00,54,0,history,0.1296774194,,,,24,14,OK
+f2,stickiness,Ridge,2018-08-06 00:00:00,55,0,history,0.1368894602,,,,24,14,OK
+f2,stickiness,Ridge,2018-08-07 00:00:00,56,0,history,0.1220779221,,,,24,14,OK
+f2,stickiness,Ridge,2018-08-08 00:00:00,57,0,history,0.1274823831,,,,24,14,OK
+f2,stickiness,Ridge,2018-08-09 00:00:00,58,0,history,0.1044965168,,,,24,14,OK
+f2,stickiness,Ridge,2018-08-10 00:00:00,59,0,history,0.09556962025,,,,24,14,OK
+f2,stickiness,Ridge,2018-08-11 00:00:00,60,0,history,0.1120851597,,,,24,14,OK
+f2,stickiness,Ridge,2018-08-12 00:00:00,61,0,history,0.1160324392,,,,24,14,OK
+f2,stickiness,Ridge,2018-08-13 00:00:00,62,0,history,0.1260869565,,,,24,14,OK
+f2,stickiness,Ridge,2018-08-14 00:00:00,63,0,history,0.1033834586,,,,24,14,OK
+f2,stickiness,Ridge,2018-08-15 00:00:00,64,0,history,0.1006922593,,,,24,14,OK
+f2,stickiness,Ridge,2018-08-16 00:00:00,65,0,history,0.1128526646,,,,24,14,OK
+f2,stickiness,Ridge,2018-08-17 00:00:00,66,0,history,0.102372035,,,,24,14,OK
+f2,stickiness,Ridge,2018-08-18 00:00:00,67,0,history,0.1365584813,,,,24,14,OK
+f2,stickiness,Ridge,2018-08-19 00:00:00,68,0,history,0.1279563372,,,,24,14,OK
+f2,stickiness,Ridge,2018-08-20 00:00:00,69,0,history,0.1039360394,,,,24,14,OK
+f2,stickiness,Ridge,2018-08-21 00:00:00,70,0,history,0.1117936118,,,,24,14,OK
+f2,stickiness,Ridge,2018-08-22 00:00:00,71,0,history,0.1159062885,,,,24,14,OK
+f2,stickiness,Ridge,2018-08-23 00:00:00,72,0,history,0.1059190031,,,,24,14,OK
+f2,stickiness,Ridge,2018-08-24 00:00:00,73,0,history,0.1460122699,,,,24,14,OK
+f2,stickiness,Ridge,2018-08-25 00:00:00,74,0,history,0.1253041363,,,,24,14,OK
+f2,stickiness,Ridge,2018-08-26 00:00:00,75,0,history,0.1245443499,,,,24,14,OK
+f2,stickiness,Ridge,2018-08-27 00:00:00,76,0,history,0.1402550091,,,,24,14,OK
+f2,stickiness,Ridge,2018-08-28 00:00:00,77,0,history,0.1370030581,,,,24,14,OK
+f2,stickiness,Ridge,2018-08-29 00:00:00,78,0,history,0.1344743276,,,,24,14,OK
+f2,stickiness,Ridge,2018-08-30 00:00:00,79,0,history,0.1416515973,,,,24,14,OK
+f2,stickiness,Ridge,2018-08-31 00:00:00,80,0,history,0.1108433735,,,,24,14,OK
+f2,stickiness,Ridge,2018-09-01 00:00:00,81,0,history,0.1049757282,,,,24,14,OK
+f2,stickiness,Ridge,2018-09-02 00:00:00,82,0,history,0.2172489083,,,,24,14,OK
+f2,stickiness,Ridge,2018-09-03 00:00:00,83,0,history,0.09866962306,,,,24,14,OK
+f2,stickiness,Ridge,2018-09-04 00:00:00,84,0,history,0.1798597194,,,,24,14,OK
+f2,stickiness,Ridge,2018-09-05 00:00:00,85,0,history,0.1702432046,,,,24,14,OK
+f2,stickiness,Ridge,2018-09-06 00:00:00,86,0,history,0.1913242009,,,,24,14,OK
+f2,stickiness,Ridge,2018-09-07 00:00:00,87,1,forecast_safe,0.1926444834,0.1825002891,0.1341134268,0.2400644975,24,14,OK
+f2,stickiness,Ridge,2018-09-08 00:00:00,88,2,forecast_safe,0.1435204728,0.180045065,0.1240670077,0.2428421866,24,14,OK
+f2,stickiness,Ridge,2018-09-09 00:00:00,89,3,forecast_safe,0.1209109731,0.1887026171,0.1383090805,0.2475328978,24,14,OK
+f2,stickiness,Ridge,2018-09-10 00:00:00,90,4,forecast_safe,0.1396626128,0.1809155038,0.1331100694,0.2340550198,24,14,OK
+f2,stickiness,Ridge,2018-09-11 00:00:00,91,5,forecast_safe,0.1231772832,0.1858312935,0.1291111604,0.2413974544,24,14,OK
+f2,stickiness,Ridge,2018-09-12 00:00:00,92,6,forecast_safe,0.09798055348,0.1861424462,0.1392046248,0.234504485,24,14,OK
+f2,stickiness,Ridge,2018-09-13 00:00:00,93,7,forecast_safe,0.1206453979,0.1879407779,0.1363035021,0.2437731938,24,14,OK
+f2,stickiness,Ridge,2018-09-14 00:00:00,94,8,forecast_safe,0.08257548199,0.1876195002,0.1403851325,0.2411777188,24,14,OK
+f2,stickiness,Ridge,2018-09-15 00:00:00,95,9,forecast_safe,0.1089211618,0.1873462874,0.1293906811,0.2455632599,24,14,OK
+f2,stickiness,Ridge,2018-09-16 00:00:00,96,10,forecast_safe,0.1258434548,0.1879951172,0.1304998633,0.2388076069,24,14,OK
+f2,stickiness,Ridge,2018-09-17 00:00:00,97,11,forecast_safe,0.1007025761,0.1875016984,0.1323682974,0.2511686713,24,14,OK
+f2,stickiness,Ridge,2018-09-18 00:00:00,98,12,forecast_safe,0.1333988856,0.1877944258,0.122281592,0.2496799862,24,14,OK
+f2,stickiness,Ridge,2018-09-19 00:00:00,99,13,forecast_safe,0.1380407125,0.1878854295,0.1259614552,0.2373122526,24,14,OK
+f2,stickiness,Ridge,2018-09-20 00:00:00,100,14,forecast_safe,0.1177952756,0.1880532585,0.1399526417,0.2477241294,24,14,OK
+f2,dau,NadarayaWatson,2018-06-12 00:00:00,0,0,history,315,,,,1,14,h_demo=14 > h_safe_A=1
+f2,dau,NadarayaWatson,2018-06-13 00:00:00,1,0,history,371,,,,1,14,h_demo=14 > h_safe_A=1
+f2,dau,NadarayaWatson,2018-06-14 00:00:00,2,0,history,361,,,,1,14,h_demo=14 > h_safe_A=1
+f2,dau,NadarayaWatson,2018-06-15 00:00:00,3,0,history,343,,,,1,14,h_demo=14 > h_safe_A=1
+f2,dau,NadarayaWatson,2018-06-16 00:00:00,4,0,history,309,,,,1,14,h_demo=14 > h_safe_A=1
+f2,dau,NadarayaWatson,2018-06-17 00:00:00,5,0,history,315,,,,1,14,h_demo=14 > h_safe_A=1
+f2,dau,NadarayaWatson,2018-06-18 00:00:00,6,0,history,888,,,,1,14,h_demo=14 > h_safe_A=1
+f2,dau,NadarayaWatson,2018-06-19 00:00:00,7,0,history,856,,,,1,14,h_demo=14 > h_safe_A=1
+f2,dau,NadarayaWatson,2018-06-20 00:00:00,8,0,history,126,,,,1,14,h_demo=14 > h_safe_A=1
+f2,dau,NadarayaWatson,2018-06-21 00:00:00,9,0,history,138,,,,1,14,h_demo=14 > h_safe_A=1
+f2,dau,NadarayaWatson,2018-06-22 00:00:00,10,0,history,155,,,,1,14,h_demo=14 > h_safe_A=1
+f2,dau,NadarayaWatson,2018-06-23 00:00:00,11,0,history,159,,,,1,14,h_demo=14 > h_safe_A=1
+f2,dau,NadarayaWatson,2018-06-24 00:00:00,12,0,history,141,,,,1,14,h_demo=14 > h_safe_A=1
+f2,dau,NadarayaWatson,2018-06-25 00:00:00,13,0,history,879,,,,1,14,h_demo=14 > h_safe_A=1
+f2,dau,NadarayaWatson,2018-06-26 00:00:00,14,0,history,842,,,,1,14,h_demo=14 > h_safe_A=1
+f2,dau,NadarayaWatson,2018-06-27 00:00:00,15,0,history,132,,,,1,14,h_demo=14 > h_safe_A=1
+f2,dau,NadarayaWatson,2018-06-28 00:00:00,16,0,history,856,,,,1,14,h_demo=14 > h_safe_A=1
+f2,dau,NadarayaWatson,2018-06-29 00:00:00,17,0,history,183,,,,1,14,h_demo=14 > h_safe_A=1
+f2,dau,NadarayaWatson,2018-06-30 00:00:00,18,0,history,882,,,,1,14,h_demo=14 > h_safe_A=1
+f2,dau,NadarayaWatson,2018-07-01 00:00:00,19,0,history,870,,,,1,14,h_demo=14 > h_safe_A=1
+f2,dau,NadarayaWatson,2018-07-02 00:00:00,20,0,history,169,,,,1,14,h_demo=14 > h_safe_A=1
+f2,dau,NadarayaWatson,2018-07-03 00:00:00,21,0,history,149,,,,1,14,h_demo=14 > h_safe_A=1
+f2,dau,NadarayaWatson,2018-07-04 00:00:00,22,0,history,156,,,,1,14,h_demo=14 > h_safe_A=1
+f2,dau,NadarayaWatson,2018-07-05 00:00:00,23,0,history,150,,,,1,14,h_demo=14 > h_safe_A=1
+f2,dau,NadarayaWatson,2018-07-06 00:00:00,24,0,history,148,,,,1,14,h_demo=14 > h_safe_A=1
+f2,dau,NadarayaWatson,2018-07-07 00:00:00,25,0,history,185,,,,1,14,h_demo=14 > h_safe_A=1
+f2,dau,NadarayaWatson,2018-07-08 00:00:00,26,0,history,168,,,,1,14,h_demo=14 > h_safe_A=1
+f2,dau,NadarayaWatson,2018-07-09 00:00:00,27,0,history,141,,,,1,14,h_demo=14 > h_safe_A=1
+f2,dau,NadarayaWatson,2018-07-10 00:00:00,28,0,history,150,,,,1,14,h_demo=14 > h_safe_A=1
+f2,dau,NadarayaWatson,2018-07-11 00:00:00,29,0,history,136,,,,1,14,h_demo=14 > h_safe_A=1
+f2,dau,NadarayaWatson,2018-07-12 00:00:00,30,0,history,139,,,,1,14,h_demo=14 > h_safe_A=1
+f2,dau,NadarayaWatson,2018-07-13 00:00:00,31,0,history,172,,,,1,14,h_demo=14 > h_safe_A=1
+f2,dau,NadarayaWatson,2018-07-14 00:00:00,32,0,history,138,,,,1,14,h_demo=14 > h_safe_A=1
+f2,dau,NadarayaWatson,2018-07-15 00:00:00,33,0,history,173,,,,1,14,h_demo=14 > h_safe_A=1
+f2,dau,NadarayaWatson,2018-07-16 00:00:00,34,0,history,131,,,,1,14,h_demo=14 > h_safe_A=1
+f2,dau,NadarayaWatson,2018-07-17 00:00:00,35,0,history,141,,,,1,14,h_demo=14 > h_safe_A=1
+f2,dau,NadarayaWatson,2018-07-18 00:00:00,36,0,history,125,,,,1,14,h_demo=14 > h_safe_A=1
+f2,dau,NadarayaWatson,2018-07-19 00:00:00,37,0,history,139,,,,1,14,h_demo=14 > h_safe_A=1
+f2,dau,NadarayaWatson,2018-07-20 00:00:00,38,0,history,155,,,,1,14,h_demo=14 > h_safe_A=1
+f2,dau,NadarayaWatson,2018-07-21 00:00:00,39,0,history,223,,,,1,14,h_demo=14 > h_safe_A=1
+f2,dau,NadarayaWatson,2018-07-22 00:00:00,40,0,history,163,,,,1,14,h_demo=14 > h_safe_A=1
+f2,dau,NadarayaWatson,2018-07-23 00:00:00,41,0,history,152,,,,1,14,h_demo=14 > h_safe_A=1
+f2,dau,NadarayaWatson,2018-07-24 00:00:00,42,0,history,159,,,,1,14,h_demo=14 > h_safe_A=1
+f2,dau,NadarayaWatson,2018-07-25 00:00:00,43,0,history,150,,,,1,14,h_demo=14 > h_safe_A=1
+f2,dau,NadarayaWatson,2018-07-26 00:00:00,44,0,history,137,,,,1,14,h_demo=14 > h_safe_A=1
+f2,dau,NadarayaWatson,2018-07-27 00:00:00,45,0,history,162,,,,1,14,h_demo=14 > h_safe_A=1
+f2,dau,NadarayaWatson,2018-07-28 00:00:00,46,0,history,198,,,,1,14,h_demo=14 > h_safe_A=1
+f2,dau,NadarayaWatson,2018-07-29 00:00:00,47,0,history,210,,,,1,14,h_demo=14 > h_safe_A=1
+f2,dau,NadarayaWatson,2018-07-30 00:00:00,48,0,history,165,,,,1,14,h_demo=14 > h_safe_A=1
+f2,dau,NadarayaWatson,2018-07-31 00:00:00,49,0,history,137,,,,1,14,h_demo=14 > h_safe_A=1
+f2,dau,NadarayaWatson,2018-08-01 00:00:00,50,0,history,155,,,,1,14,h_demo=14 > h_safe_A=1
+f2,dau,NadarayaWatson,2018-08-02 00:00:00,51,0,history,201,,,,1,14,h_demo=14 > h_safe_A=1
+f2,dau,NadarayaWatson,2018-08-03 00:00:00,52,0,history,217,,,,1,14,h_demo=14 > h_safe_A=1
+f2,dau,NadarayaWatson,2018-08-04 00:00:00,53,0,history,233,,,,1,14,h_demo=14 > h_safe_A=1
+f2,dau,NadarayaWatson,2018-08-05 00:00:00,54,0,history,201,,,,1,14,h_demo=14 > h_safe_A=1
+f2,dau,NadarayaWatson,2018-08-06 00:00:00,55,0,history,213,,,,1,14,h_demo=14 > h_safe_A=1
+f2,dau,NadarayaWatson,2018-08-07 00:00:00,56,0,history,188,,,,1,14,h_demo=14 > h_safe_A=1
+f2,dau,NadarayaWatson,2018-08-08 00:00:00,57,0,history,199,,,,1,14,h_demo=14 > h_safe_A=1
+f2,dau,NadarayaWatson,2018-08-09 00:00:00,58,0,history,165,,,,1,14,h_demo=14 > h_safe_A=1
+f2,dau,NadarayaWatson,2018-08-10 00:00:00,59,0,history,151,,,,1,14,h_demo=14 > h_safe_A=1
+f2,dau,NadarayaWatson,2018-08-11 00:00:00,60,0,history,179,,,,1,14,h_demo=14 > h_safe_A=1
+f2,dau,NadarayaWatson,2018-08-12 00:00:00,61,0,history,186,,,,1,14,h_demo=14 > h_safe_A=1
+f2,dau,NadarayaWatson,2018-08-13 00:00:00,62,0,history,203,,,,1,14,h_demo=14 > h_safe_A=1
+f2,dau,NadarayaWatson,2018-08-14 00:00:00,63,0,history,165,,,,1,14,h_demo=14 > h_safe_A=1
+f2,dau,NadarayaWatson,2018-08-15 00:00:00,64,0,history,160,,,,1,14,h_demo=14 > h_safe_A=1
+f2,dau,NadarayaWatson,2018-08-16 00:00:00,65,0,history,180,,,,1,14,h_demo=14 > h_safe_A=1
+f2,dau,NadarayaWatson,2018-08-17 00:00:00,66,0,history,164,,,,1,14,h_demo=14 > h_safe_A=1
+f2,dau,NadarayaWatson,2018-08-18 00:00:00,67,0,history,223,,,,1,14,h_demo=14 > h_safe_A=1
+f2,dau,NadarayaWatson,2018-08-19 00:00:00,68,0,history,211,,,,1,14,h_demo=14 > h_safe_A=1
+f2,dau,NadarayaWatson,2018-08-20 00:00:00,69,0,history,169,,,,1,14,h_demo=14 > h_safe_A=1
+f2,dau,NadarayaWatson,2018-08-21 00:00:00,70,0,history,182,,,,1,14,h_demo=14 > h_safe_A=1
+f2,dau,NadarayaWatson,2018-08-22 00:00:00,71,0,history,188,,,,1,14,h_demo=14 > h_safe_A=1
+f2,dau,NadarayaWatson,2018-08-23 00:00:00,72,0,history,170,,,,1,14,h_demo=14 > h_safe_A=1
+f2,dau,NadarayaWatson,2018-08-24 00:00:00,73,0,history,238,,,,1,14,h_demo=14 > h_safe_A=1
+f2,dau,NadarayaWatson,2018-08-25 00:00:00,74,0,history,206,,,,1,14,h_demo=14 > h_safe_A=1
+f2,dau,NadarayaWatson,2018-08-26 00:00:00,75,0,history,205,,,,1,14,h_demo=14 > h_safe_A=1
+f2,dau,NadarayaWatson,2018-08-27 00:00:00,76,0,history,231,,,,1,14,h_demo=14 > h_safe_A=1
+f2,dau,NadarayaWatson,2018-08-28 00:00:00,77,0,history,224,,,,1,14,h_demo=14 > h_safe_A=1
+f2,dau,NadarayaWatson,2018-08-29 00:00:00,78,0,history,220,,,,1,14,h_demo=14 > h_safe_A=1
+f2,dau,NadarayaWatson,2018-08-30 00:00:00,79,0,history,235,,,,1,14,h_demo=14 > h_safe_A=1
+f2,dau,NadarayaWatson,2018-08-31 00:00:00,80,0,history,184,,,,1,14,h_demo=14 > h_safe_A=1
+f2,dau,NadarayaWatson,2018-09-01 00:00:00,81,0,history,173,,,,1,14,h_demo=14 > h_safe_A=1
+f2,dau,NadarayaWatson,2018-09-02 00:00:00,82,0,history,398,,,,1,14,h_demo=14 > h_safe_A=1
+f2,dau,NadarayaWatson,2018-09-03 00:00:00,83,0,history,178,,,,1,14,h_demo=14 > h_safe_A=1
+f2,dau,NadarayaWatson,2018-09-04 00:00:00,84,0,history,359,,,,1,14,h_demo=14 > h_safe_A=1
+f2,dau,NadarayaWatson,2018-09-05 00:00:00,85,0,history,357,,,,1,14,h_demo=14 > h_safe_A=1
+f2,dau,NadarayaWatson,2018-09-06 00:00:00,86,0,history,419,,,,1,14,h_demo=14 > h_safe_A=1
+f2,dau,NadarayaWatson,2018-09-07 00:00:00,87,1,forecast_safe,440,308.8508657,253.6075756,374.5719335,1,14,h_demo=14 > h_safe_A=1
+f2,dau,NadarayaWatson,2018-09-08 00:00:00,88,2,forecast_demo,340,296.3795088,237.6968815,365.7430888,1,14,h_demo=14 > h_safe_A=1
+f2,dau,NadarayaWatson,2018-09-09 00:00:00,89,3,forecast_demo,292,301.8124643,245.7389934,365.9574018,1,14,h_demo=14 > h_safe_A=1
+f2,dau,NadarayaWatson,2018-09-10 00:00:00,90,4,forecast_demo,356,295.7949265,241.928411,354.6628897,1,14,h_demo=14 > h_safe_A=1
+f2,dau,NadarayaWatson,2018-09-11 00:00:00,91,5,forecast_demo,321,300.8011794,240.6929568,361.2691792,1,14,h_demo=14 > h_safe_A=1
+f2,dau,NadarayaWatson,2018-09-12 00:00:00,92,6,forecast_demo,262,301.2942319,246.7536022,354.2820335,1,14,h_demo=14 > h_safe_A=1
+f2,dau,NadarayaWatson,2018-09-13 00:00:00,93,7,forecast_demo,329,302.7943827,245.0997866,365.6341919,1,14,h_demo=14 > h_safe_A=1
+f2,dau,NadarayaWatson,2018-09-14 00:00:00,94,8,forecast_demo,227,300.1633687,245.9340427,360.7861713,1,14,h_demo=14 > h_safe_A=1
+f2,dau,NadarayaWatson,2018-09-15 00:00:00,95,9,forecast_demo,315,299.5046253,232.0705914,362.713167,1,14,h_demo=14 > h_safe_A=1
+f2,dau,NadarayaWatson,2018-09-16 00:00:00,96,10,forecast_demo,373,299.5965579,235.2257468,356.5480951,1,14,h_demo=14 > h_safe_A=1
+f2,dau,NadarayaWatson,2018-09-17 00:00:00,97,11,forecast_demo,301,299.4254196,236.8817463,373.8152415,1,14,h_demo=14 > h_safe_A=1
+f2,dau,NadarayaWatson,2018-09-18 00:00:00,98,12,forecast_demo,407,299.5576606,227.5001577,368.7631098,1,14,h_demo=14 > h_safe_A=1
+f2,dau,NadarayaWatson,2018-09-19 00:00:00,99,13,forecast_demo,434,299.5867962,235.8735073,359.5752986,1,14,h_demo=14 > h_safe_A=1
+f2,dau,NadarayaWatson,2018-09-20 00:00:00,100,14,forecast_demo,374,299.6348443,245.6095746,366.9176936,1,14,h_demo=14 > h_safe_A=1
+f2,retention_d7,NadarayaWatson,2018-06-12 00:00:00,0,0,history,,,,,0,14,h_demo=14 > h_safe_A=0
+f2,retention_d7,NadarayaWatson,2018-06-13 00:00:00,1,0,history,,,,,0,14,h_demo=14 > h_safe_A=0
+f2,retention_d7,NadarayaWatson,2018-06-14 00:00:00,2,0,history,0.05,,,,0,14,h_demo=14 > h_safe_A=0
+f2,retention_d7,NadarayaWatson,2018-06-15 00:00:00,3,0,history,,,,,0,14,h_demo=14 > h_safe_A=0
+f2,retention_d7,NadarayaWatson,2018-06-16 00:00:00,4,0,history,,,,,0,14,h_demo=14 > h_safe_A=0
+f2,retention_d7,NadarayaWatson,2018-06-17 00:00:00,5,0,history,,,,,0,14,h_demo=14 > h_safe_A=0
+f2,retention_d7,NadarayaWatson,2018-06-18 00:00:00,6,0,history,,,,,0,14,h_demo=14 > h_safe_A=0
+f2,retention_d7,NadarayaWatson,2018-06-19 00:00:00,7,0,history,0.1111111111,,,,0,14,h_demo=14 > h_safe_A=0
+f2,retention_d7,NadarayaWatson,2018-06-20 00:00:00,8,0,history,0.125,,,,0,14,h_demo=14 > h_safe_A=0
+f2,retention_d7,NadarayaWatson,2018-06-21 00:00:00,9,0,history,0.1428571429,,,,0,14,h_demo=14 > h_safe_A=0
+f2,retention_d7,NadarayaWatson,2018-06-22 00:00:00,10,0,history,,,,,0,14,h_demo=14 > h_safe_A=0
+f2,retention_d7,NadarayaWatson,2018-06-23 00:00:00,11,0,history,,,,,0,14,h_demo=14 > h_safe_A=0
+f2,retention_d7,NadarayaWatson,2018-06-24 00:00:00,12,0,history,,,,,0,14,h_demo=14 > h_safe_A=0
+f2,retention_d7,NadarayaWatson,2018-06-25 00:00:00,13,0,history,,,,,0,14,h_demo=14 > h_safe_A=0
+f2,retention_d7,NadarayaWatson,2018-06-26 00:00:00,14,0,history,,,,,0,14,h_demo=14 > h_safe_A=0
+f2,retention_d7,NadarayaWatson,2018-06-27 00:00:00,15,0,history,0.125,,,,0,14,h_demo=14 > h_safe_A=0
+f2,retention_d7,NadarayaWatson,2018-06-28 00:00:00,16,0,history,,,,,0,14,h_demo=14 > h_safe_A=0
+f2,retention_d7,NadarayaWatson,2018-06-29 00:00:00,17,0,history,0.07692307692,,,,0,14,h_demo=14 > h_safe_A=0
+f2,retention_d7,NadarayaWatson,2018-06-30 00:00:00,18,0,history,,,,,0,14,h_demo=14 > h_safe_A=0
+f2,retention_d7,NadarayaWatson,2018-07-01 00:00:00,19,0,history,,,,,0,14,h_demo=14 > h_safe_A=0
+f2,retention_d7,NadarayaWatson,2018-07-02 00:00:00,20,0,history,,,,,0,14,h_demo=14 > h_safe_A=0
+f2,retention_d7,NadarayaWatson,2018-07-03 00:00:00,21,0,history,,,,,0,14,h_demo=14 > h_safe_A=0
+f2,retention_d7,NadarayaWatson,2018-07-04 00:00:00,22,0,history,,,,,0,14,h_demo=14 > h_safe_A=0
+f2,retention_d7,NadarayaWatson,2018-07-05 00:00:00,23,0,history,0.07692307692,,,,0,14,h_demo=14 > h_safe_A=0
+f2,retention_d7,NadarayaWatson,2018-07-06 00:00:00,24,0,history,,,,,0,14,h_demo=14 > h_safe_A=0
+f2,retention_d7,NadarayaWatson,2018-07-07 00:00:00,25,0,history,,,,,0,14,h_demo=14 > h_safe_A=0
+f2,retention_d7,NadarayaWatson,2018-07-08 00:00:00,26,0,history,0.25,,,,0,14,h_demo=14 > h_safe_A=0
+f2,retention_d7,NadarayaWatson,2018-07-09 00:00:00,27,0,history,0.1111111111,,,,0,14,h_demo=14 > h_safe_A=0
+f2,retention_d7,NadarayaWatson,2018-07-10 00:00:00,28,0,history,,,,,0,14,h_demo=14 > h_safe_A=0
+f2,retention_d7,NadarayaWatson,2018-07-11 00:00:00,29,0,history,,,,,0,14,h_demo=14 > h_safe_A=0
+f2,retention_d7,NadarayaWatson,2018-07-12 00:00:00,30,0,history,0.09090909091,,,,0,14,h_demo=14 > h_safe_A=0
+f2,retention_d7,NadarayaWatson,2018-07-13 00:00:00,31,0,history,,,,,0,14,h_demo=14 > h_safe_A=0
+f2,retention_d7,NadarayaWatson,2018-07-14 00:00:00,32,0,history,,,,,0,14,h_demo=14 > h_safe_A=0
+f2,retention_d7,NadarayaWatson,2018-07-15 00:00:00,33,0,history,0.1818181818,,,,0,14,h_demo=14 > h_safe_A=0
+f2,retention_d7,NadarayaWatson,2018-07-16 00:00:00,34,0,history,,,,,0,14,h_demo=14 > h_safe_A=0
+f2,retention_d7,NadarayaWatson,2018-07-17 00:00:00,35,0,history,,,,,0,14,h_demo=14 > h_safe_A=0
+f2,retention_d7,NadarayaWatson,2018-07-18 00:00:00,36,0,history,0.1428571429,,,,0,14,h_demo=14 > h_safe_A=0
+f2,retention_d7,NadarayaWatson,2018-07-19 00:00:00,37,0,history,0.1428571429,,,,0,14,h_demo=14 > h_safe_A=0
+f2,retention_d7,NadarayaWatson,2018-07-20 00:00:00,38,0,history,,,,,0,14,h_demo=14 > h_safe_A=0
+f2,retention_d7,NadarayaWatson,2018-07-21 00:00:00,39,0,history,0.0625,,,,0,14,h_demo=14 > h_safe_A=0
+f2,retention_d7,NadarayaWatson,2018-07-22 00:00:00,40,0,history,0.25,,,,0,14,h_demo=14 > h_safe_A=0
+f2,retention_d7,NadarayaWatson,2018-07-23 00:00:00,41,0,history,0.1,,,,0,14,h_demo=14 > h_safe_A=0
+f2,retention_d7,NadarayaWatson,2018-07-24 00:00:00,42,0,history,,,,,0,14,h_demo=14 > h_safe_A=0
+f2,retention_d7,NadarayaWatson,2018-07-25 00:00:00,43,0,history,,,,,0,14,h_demo=14 > h_safe_A=0
+f2,retention_d7,NadarayaWatson,2018-07-26 00:00:00,44,0,history,,,,,0,14,h_demo=14 > h_safe_A=0
+f2,retention_d7,NadarayaWatson,2018-07-27 00:00:00,45,0,history,0.1,,,,0,14,h_demo=14 > h_safe_A=0
+f2,retention_d7,NadarayaWatson,2018-07-28 00:00:00,46,0,history,0.08333333333,,,,0,14,h_demo=14 > h_safe_A=0
+f2,retention_d7,NadarayaWatson,2018-07-29 00:00:00,47,0,history,,,,,0,14,h_demo=14 > h_safe_A=0
+f2,retention_d7,NadarayaWatson,2018-07-30 00:00:00,48,0,history,,,,,0,14,h_demo=14 > h_safe_A=0
+f2,retention_d7,NadarayaWatson,2018-07-31 00:00:00,49,0,history,0.1,,,,0,14,h_demo=14 > h_safe_A=0
+f2,retention_d7,NadarayaWatson,2018-08-01 00:00:00,50,0,history,0.2142857143,,,,0,14,h_demo=14 > h_safe_A=0
+f2,retention_d7,NadarayaWatson,2018-08-02 00:00:00,51,0,history,0.08333333333,,,,0,14,h_demo=14 > h_safe_A=0
+f2,retention_d7,NadarayaWatson,2018-08-03 00:00:00,52,0,history,0.0625,,,,0,14,h_demo=14 > h_safe_A=0
+f2,retention_d7,NadarayaWatson,2018-08-04 00:00:00,53,0,history,0.05555555556,,,,0,14,h_demo=14 > h_safe_A=0
+f2,retention_d7,NadarayaWatson,2018-08-05 00:00:00,54,0,history,,,,,0,14,h_demo=14 > h_safe_A=0
+f2,retention_d7,NadarayaWatson,2018-08-06 00:00:00,55,0,history,,,,,0,14,h_demo=14 > h_safe_A=0
+f2,retention_d7,NadarayaWatson,2018-08-07 00:00:00,56,0,history,,,,,0,14,h_demo=14 > h_safe_A=0
+f2,retention_d7,NadarayaWatson,2018-08-08 00:00:00,57,0,history,,,,,0,14,h_demo=14 > h_safe_A=0
+f2,retention_d7,NadarayaWatson,2018-08-09 00:00:00,58,0,history,0.2,,,,0,14,h_demo=14 > h_safe_A=0
+f2,retention_d7,NadarayaWatson,2018-08-10 00:00:00,59,0,history,,,,,0,14,h_demo=14 > h_safe_A=0
+f2,retention_d7,NadarayaWatson,2018-08-11 00:00:00,60,0,history,0.08333333333,,,,0,14,h_demo=14 > h_safe_A=0
+f2,retention_d7,NadarayaWatson,2018-08-12 00:00:00,61,0,history,0.1111111111,,,,0,14,h_demo=14 > h_safe_A=0
+f2,retention_d7,NadarayaWatson,2018-08-13 00:00:00,62,0,history,0.2,,,,0,14,h_demo=14 > h_safe_A=0
+f2,retention_d7,NadarayaWatson,2018-08-14 00:00:00,63,0,history,,,,,0,14,h_demo=14 > h_safe_A=0
+f2,retention_d7,NadarayaWatson,2018-08-15 00:00:00,64,0,history,,,,,0,14,h_demo=14 > h_safe_A=0
+f2,retention_d7,NadarayaWatson,2018-08-16 00:00:00,65,0,history,0.1428571429,,,,0,14,h_demo=14 > h_safe_A=0
+f2,retention_d7,NadarayaWatson,2018-08-17 00:00:00,66,0,history,,,,,0,14,h_demo=14 > h_safe_A=0
+f2,retention_d7,NadarayaWatson,2018-08-18 00:00:00,67,0,history,0.1578947368,,,,0,14,h_demo=14 > h_safe_A=0
+f2,retention_d7,NadarayaWatson,2018-08-19 00:00:00,68,0,history,0.25,,,,0,14,h_demo=14 > h_safe_A=0
+f2,retention_d7,NadarayaWatson,2018-08-20 00:00:00,69,0,history,0.1428571429,,,,0,14,h_demo=14 > h_safe_A=0
+f2,retention_d7,NadarayaWatson,2018-08-21 00:00:00,70,0,history,0.06666666667,,,,0,14,h_demo=14 > h_safe_A=0
+f2,retention_d7,NadarayaWatson,2018-08-22 00:00:00,71,0,history,,,,,0,14,h_demo=14 > h_safe_A=0
+f2,retention_d7,NadarayaWatson,2018-08-23 00:00:00,72,0,history,,,,,0,14,h_demo=14 > h_safe_A=0
+f2,retention_d7,NadarayaWatson,2018-08-24 00:00:00,73,0,history,,,,,0,14,h_demo=14 > h_safe_A=0
+f2,retention_d7,NadarayaWatson,2018-08-25 00:00:00,74,0,history,,,,,0,14,h_demo=14 > h_safe_A=0
+f2,retention_d7,NadarayaWatson,2018-08-26 00:00:00,75,0,history,,,,,0,14,h_demo=14 > h_safe_A=0
+f2,retention_d7,NadarayaWatson,2018-08-27 00:00:00,76,0,history,,,,,0,14,h_demo=14 > h_safe_A=0
+f2,retention_d7,NadarayaWatson,2018-08-28 00:00:00,77,0,history,,,,,0,14,h_demo=14 > h_safe_A=0
+f2,retention_d7,NadarayaWatson,2018-08-29 00:00:00,78,0,history,,,,,0,14,h_demo=14 > h_safe_A=0
+f2,retention_d7,NadarayaWatson,2018-08-30 00:00:00,79,0,history,0.1,,,,0,14,h_demo=14 > h_safe_A=0
+f2,retention_d7,NadarayaWatson,2018-08-31 00:00:00,80,0,history,,,,,0,14,h_demo=14 > h_safe_A=0
+f2,retention_d7,NadarayaWatson,2018-09-01 00:00:00,81,0,history,,,,,0,14,h_demo=14 > h_safe_A=0
+f2,retention_d7,NadarayaWatson,2018-09-02 00:00:00,82,0,history,,,,,0,14,h_demo=14 > h_safe_A=0
+f2,retention_d7,NadarayaWatson,2018-09-03 00:00:00,83,0,history,,,,,0,14,h_demo=14 > h_safe_A=0
+f2,retention_d7,NadarayaWatson,2018-09-04 00:00:00,84,0,history,0.1363636364,,,,0,14,h_demo=14 > h_safe_A=0
+f2,retention_d7,NadarayaWatson,2018-09-05 00:00:00,85,0,history,,,,,0,14,h_demo=14 > h_safe_A=0
+f2,retention_d7,NadarayaWatson,2018-09-06 00:00:00,86,0,history,0.03571428571,,,,0,14,h_demo=14 > h_safe_A=0
+f2,retention_d7,NadarayaWatson,2018-09-07 00:00:00,87,1,forecast_demo,0.02272727273,0.08033097166,0.02304559096,0.1484814454,0,14,h_demo=14 > h_safe_A=0
+f2,retention_d7,NadarayaWatson,2018-09-08 00:00:00,88,2,forecast_demo,,0.07273920278,0.01350873978,0.1454440758,0,14,h_demo=14 > h_safe_A=0
+f2,retention_d7,NadarayaWatson,2018-09-09 00:00:00,89,3,forecast_demo,0.1,0.07392902406,0.01377362627,0.1380340649,0,14,h_demo=14 > h_safe_A=0
+f2,retention_d7,NadarayaWatson,2018-09-10 00:00:00,90,4,forecast_demo,0.04,0.07373852716,0.0164153907,0.1361936349,0,14,h_demo=14 > h_safe_A=0
+f2,retention_d7,NadarayaWatson,2018-09-11 00:00:00,91,5,forecast_demo,0.2,0.06785782575,0.008315981074,0.1331946534,0,14,h_demo=14 > h_safe_A=0
+f2,retention_d7,NadarayaWatson,2018-09-12 00:00:00,92,6,forecast_demo,,0.06848630622,0.01257382282,0.1322551148,0,14,h_demo=14 > h_safe_A=0
+f2,retention_d7,NadarayaWatson,2018-09-13 00:00:00,93,7,forecast_demo,0.06666666667,0.07462094108,0.01344398616,0.1382673485,0,14,h_demo=14 > h_safe_A=0
+f2,retention_d7,NadarayaWatson,2018-09-14 00:00:00,94,8,forecast_demo,0.08333333333,0.06915555454,0.0131029387,0.1399151511,0,14,h_demo=14 > h_safe_A=0
+f2,retention_d7,NadarayaWatson,2018-09-15 00:00:00,95,9,forecast_demo,,0.07050454639,-0.006905761877,0.1336175915,0,14,h_demo=14 > h_safe_A=0
+f2,retention_d7,NadarayaWatson,2018-09-16 00:00:00,96,10,forecast_demo,0.16,0.07021380942,0.004765178351,0.1273643015,0,14,h_demo=14 > h_safe_A=0
+f2,retention_d7,NadarayaWatson,2018-09-17 00:00:00,97,11,forecast_demo,0.1818181818,0.07027040938,0.004361841943,0.1478232892,0,14,h_demo=14 > h_safe_A=0
+f2,retention_d7,NadarayaWatson,2018-09-18 00:00:00,98,12,forecast_demo,,0.07078147128,-0.001146371934,0.1367442138,0,14,h_demo=14 > h_safe_A=0
+f2,retention_d7,NadarayaWatson,2018-09-19 00:00:00,99,13,forecast_demo,,0.07065101957,0.004348855053,0.1370041048,0,14,h_demo=14 > h_safe_A=0
+f2,retention_d7,NadarayaWatson,2018-09-20 00:00:00,100,14,forecast_demo,,0.07013564234,0.007039243236,0.1390577413,0,14,h_demo=14 > h_safe_A=0

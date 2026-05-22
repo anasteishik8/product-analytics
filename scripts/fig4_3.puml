@@ -1,0 +1,87 @@
+@startuml fig4_3
+' Логика Streamlit-демо как request–response схемы:
+' пользователь → 4 страницы → lib → frozen-артефакты (вниз: запрос),
+' frozen-артефакты → lib → 4 страницы → пользователь (вверх: ответ).
+' lib не только читает артефакты, но и выполняет интерактивные расчёты
+' (what-if) поверх замороженной конфигурации.
+
+skinparam dpi 200
+skinparam defaultFontName "Times New Roman"
+skinparam defaultFontSize 13
+skinparam shadowing false
+skinparam linetype ortho
+skinparam padding 6
+skinparam nodesep 110
+skinparam ranksep 70
+
+skinparam ArrowFontSize 11
+skinparam ArrowFontColor #444444
+skinparam ArrowThickness 1.4
+
+skinparam rectangle {
+  RoundCorner 16
+  BorderThickness 1.6
+  FontSize 13
+  StereotypeFontSize 0
+  StereotypeFontColor #ffffff00
+}
+
+hide stereotype
+
+skinparam rectangle<<pages>> {
+  BackgroundColor #f3dcd9
+  BorderColor #a83232
+  BorderThickness 1.8
+  FontColor #4a0e0a
+}
+skinparam rectangle<<lib>> {
+  BackgroundColor #fbecde
+  BorderColor #c08a30
+  BorderThickness 1.4
+  FontColor #4a3010
+}
+skinparam rectangle<<artifacts>> {
+  BackgroundColor #e2efde
+  BorderColor #3a8a64
+  BorderThickness 2.0
+  FontColor #163b29
+}
+
+skinparam actor {
+  BackgroundColor #f3dcd9
+  BorderColor #a83232
+  FontColor #4a0e0a
+  FontSize 13
+}
+
+skinparam legend {
+  BackgroundColor #ffffff
+  BorderColor #ffffff
+  FontColor #444444
+}
+
+title <b>Streamlit-демо: схема запрос–ответ между пользователем и замороженными артефактами</b>
+
+actor "Пользователь\n(научник, комиссия)" as USER
+
+rectangle "<b>app/streamlit/</b> — 4 страницы-представления\n01 Данные  ·  02 Прогноз  ·  03 Сценарии  ·  04 Вердикт" as PAGES <<pages>>
+
+rectangle "<b>app/streamlit/lib/</b> — 6 общих модулей\n<i>доступ к артефактам + интерактивные расчёты сценариев</i>\nconstants  ·  data_loaders  ·  plots  ·  text  ·  what_if_engine  ·  winner_registry" as LIB <<lib>>
+
+rectangle "<b>results/  +  vkr/v2/artifacts/</b> — замороженные артефакты\n16 файлов: final_config · horizon_safe · scenario_* · viability_*\nwinner_registry.json фиксирует лучшую модель per (приложение, метрика)" as ART <<artifacts>>
+
+' === запрос: сверху вниз (серые стрелки) ===
+USER -[#555555]down-> PAGES : ↓ параметры запроса\n(продукт, метрика, сценарий)
+PAGES -[#555555]down-> LIB : ↓ вызов функций
+LIB -[#555555]down-> ART : ↓ чтение артефактов\n(только чтение)
+
+' === ответ: снизу вверх (зелёные стрелки) ===
+ART -[#3a8a64]up-> LIB : ↑ данные, модели,\nпараметры
+LIB -[#3a8a64]up-> PAGES : ↑ расчёт прогноза\nи сценариев
+PAGES -[#3a8a64]up-> USER : ↑ таблицы и графики
+
+legend bottom
+<size:11><color:#444444><i>Артефакты не перезаписываются: интерактивные расчёты сценариев выполняются поверх замороженных моделей и конфигураций</i></color></size>
+end legend
+
+@enduml

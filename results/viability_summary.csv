@@ -1,0 +1,7 @@
+app_id,model,feature_count,T95,T99,D2_mean,bad_share_mean,days_develop,days_monitor,days_discontinue,final_verdict
+com.labpixies.flood,M1,4,9.49,13.28,5.23,0.124,91,10,10,DEVELOP
+com.labpixies.flood,M2,9,16.92,21.67,118.99,0.235,55,48,7,DEVELOP
+com.labpixies.flood,M3,10,18.31,23.21,361.78,0.212,57,46,7,DEVELOP
+com.google.flood2,M1,4,9.49,13.28,15.4,0.151,89,22,0,DEVELOP
+com.google.flood2,M2,9,16.92,21.67,162.65,0.253,13,97,0,MONITOR
+com.google.flood2,M3,10,18.31,23.21,2522.3,0.328,0,92,18,DISCONTINUE

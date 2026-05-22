@@ -1,0 +1,130 @@
+@startuml fig4_1
+' Архитектура системы прогнозирования востребованности IT-продуктов:
+' поток данных от источников до Streamlit-демо.
+' Цвета согласованы с VKR_PALETTE (см. scripts/vkr_plot_style.py).
+
+skinparam dpi 200
+skinparam defaultFontName "Times New Roman"
+skinparam defaultFontSize 13
+skinparam shadowing false
+skinparam linetype ortho
+skinparam padding 4
+skinparam nodesep 60
+skinparam ranksep 32
+
+skinparam ArrowColor #555555
+skinparam ArrowFontSize 11
+skinparam ArrowFontColor #444444
+skinparam ArrowThickness 1.2
+
+skinparam rectangle {
+  RoundCorner 14
+  BorderThickness 1.4
+  FontSize 13
+  StereotypeFontSize 0
+  StereotypeFontColor #ffffff00
+}
+
+hide stereotype
+
+' --- стереотипы цветов слоёв ---
+skinparam rectangle<<source>> {
+  BackgroundColor #f5ecd6
+  BorderColor #c08a30
+  FontColor #1a1a1a
+}
+skinparam rectangle<<dataset>> {
+  BackgroundColor #e6eef7
+  BorderColor #2c5d8a
+  BorderThickness 2.0
+  FontColor #0d2e4d
+}
+skinparam rectangle<<notebooks>> {
+  BackgroundColor #ededed
+  BorderColor #555555
+  FontColor #1a1a1a
+}
+skinparam rectangle<<core>> {
+  BackgroundColor #e2efde
+  BorderColor #3a8a64
+  FontColor #163b29
+}
+skinparam rectangle<<results>> {
+  BackgroundColor #dfe7f1
+  BorderColor #2c5d8a
+  FontColor #0d2e4d
+}
+skinparam rectangle<<demo>> {
+  BackgroundColor #f3dcd9
+  BorderColor #a83232
+  BorderThickness 1.8
+  FontColor #4a0e0a
+}
+skinparam actor {
+  BackgroundColor #f3dcd9
+  BorderColor #a83232
+  FontColor #4a0e0a
+  FontSize 13
+}
+
+title <b>Архитектура системы: поток данных от источников до Streamlit-демо</b>
+
+' === уровень 1. Источники ===
+together {
+  rectangle "<b>Firebase BigQuery</b>\ndau · stickiness\nretention · crash_rate" as S1 <<source>>
+  rectangle "<b>Google Play Scraper</b>\nrating · reviews\ncategory_rank" as S2 <<source>>
+  rectangle "<b>Kaggle (Google Play)</b>\ncompetitor_count\nкатегория приложения" as S3 <<source>>
+  rectangle "<b>Google Trends + Wikipedia</b>\nmedia_coverage\ndownloads_index" as S4 <<source>>
+}
+
+' === уровень 2. Объединённый датасет ===
+rectangle "<b>data/processed/floodit_final.parquet</b>\n222 строки × 60 колонок\n2 продукта × 111 дней · 0% синтетики" as DS <<dataset>>
+
+' === уровень 3. Ноутбуки (последовательность фаз) ===
+rectangle "<b>notebooks/</b> — фазы 02 → 03 → 04 → 05 → 06b → 07 → 08\nразведочный анализ · отбор признаков · моделирование\nгоризонт прогноза · валидация · сценарии · вердикт" as NB <<notebooks>>
+
+' === уровень 4. Ядро алгоритмов и хранилище артефактов (под notebooks, по краям) ===
+rectangle "<b>src/</b> — ядро алгоритмов\nkernel_regression · feature_engineering\nevaluation · scenario_analysis\nNW + LL · VIF · DM-тест · BCa CI" as CORE <<core>>
+rectangle "<b>results/  +  figures/</b>\n16 артефактов формата *.csv и *.json\nконфигурация модели · горизонт прогноза\nсценарии · вердикт · валидация прогноза" as RES <<results>>
+
+' === уровень 5. Демо-приложение ===
+rectangle "<b>app/streamlit/</b>  ·  4 страницы\nГлавная → Данные → Прогноз → Сценарии → Вердикт" as ST <<demo>>
+
+actor "пользователь" as USER
+
+' === связи ===
+S1 -down-> DS
+S2 -down-> DS
+S3 -down-> DS
+S4 -down-> DS
+
+' Подписи сдвинуты невидимыми символами-распорками <size:1>:
+' слева от текста — сдвигает текст вправо, справа — влево.
+DS -down-> NB : <color:#ffffff>OOOOOOOOOOOOOOOOOO</color>загрузка датасета
+
+CORE -up-> NB : подключение<color:#ffffff>OOOOOOOOOOOOOOOOOO</color>\nкак библиотеки<color:#ffffff>OOOOOOOOOOOOOOOOOO</color>
+NB -down-> RES : сохранение\nартефактов
+
+CORE -down-> ST : подключение функций<color:#ffffff>OOOOOOOOOOOOOOOOOO</color>\nсценарного анализа<color:#ffffff>OOOOOOOOOOOOOOOOOO</color>
+RES -down-> ST : только чтение —\nединый источник данных
+
+ST -right-> USER
+
+' скрытые рёбра для разводки макета:
+' (1) фиксируем порядок источников слева направо;
+' (2) CORE — RES в одном ярусе под NB, левый/правый край;
+' (3) DS — NB — ST — единая центральная колонка между CORE и RES;
+' (4) S1 → CORE и S4 → RES прижимают блоки к крайним колонкам источников;
+' (5) S2 и S3 → DS симметрично прижимают датасет к середине между ними.
+S1 -[hidden]right- S2
+S2 -[hidden]right- S3
+S3 -[hidden]right- S4
+CORE -[hidden]right- RES
+DS -[hidden]down- NB
+NB -[hidden]down- ST
+S1 -[hidden]down- CORE
+S4 -[hidden]down- RES
+S2 -[hidden]down- DS
+S3 -[hidden]down- DS
+
+@enduml

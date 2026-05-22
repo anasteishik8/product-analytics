@@ -1,0 +1,7 @@
+app,target,avoid_rank,action,target_value,shap_pain_score,expected_delta_pct,p_success,extrapolation_warning
+f1,retention_d7,1,median_session_duration -> 0.082,0.0823,0.0006,-849.25,0.0,True
+f1,retention_d7,2,crash_rate -> 0.020,0.02,-0.0036,-191.64,0.074,True
+f2,stickiness,1,avg_session_duration -> 1.270,1.27,0.0083,-41.28,0.0,True
+f2,stickiness,2,avg_session_duration_ma7 -> 0.915,0.9154,0.0072,-37.03,0.006,False
+f2,dau,1,median_session_duration -> 0.169,0.1691,14.2861,-49.19,0.0,True
+f2,dau,2,avg_session_duration_ma7 -> 0.915,0.9154,14.3578,-36.75,0.0,True

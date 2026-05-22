@@ -1,0 +1,29 @@
+# === Core data processing ===
+pandas>=2.0
+numpy>=1.24
+pyarrow>=14.0          # parquet I/O
+scipy>=1.11
+
+# === ML ===
+scikit-learn>=1.3
+xgboost>=2.0           # baseline gradient boosting
+shap>=0.44             # interpretability
+joblib>=1.3            # pickle models
+
+# === Data sources ===
+google-play-scraper>=1.2   # scraping Google Play Store
+pytrends>=4.9              # Google Trends API
+requests>=2.31             # Wikipedia Pageviews API
+
+# === Web UI / visualization ===
+streamlit>=1.30            # demo web interface
+plotly>=5.18               # interactive plots
+matplotlib>=3.8            # static plots
+seaborn>=0.13              # statistical plots
+
+# === Optional: BigQuery access (if re-downloading raw events) ===
+# google-cloud-bigquery>=3.17
+# db-dtypes>=1.2
+
+# === Testing ===
+pytest>=8.0

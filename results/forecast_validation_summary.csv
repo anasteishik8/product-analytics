@@ -1,0 +1,7 @@
+app,target,model,strategy,h_safe_A,h_demo,n_actual,RMSE,MAPE_pct,Dir_Acc_pct,MASE,CI95_coverage_pct,trend,warning
+f1,stickiness,XGBoost,hold_last,24,14,14,0.03353,36.98,0.0,0.971,7.1,flat,low CI coverage (7%); Dir.Acc < 50% (worse than random)
+f1,dau,RandomForest,hold_last,2,14,14,86.17027,40.43,0.0,1.881,35.7,flat,h_demo=14 > h_safe_A=2; low CI coverage (36%); Dir.Acc < 50% (worse than random)
+f1,retention_d7,Ridge,linear_trend,3,14,8,0.06007,37.35,42.9,0.715,87.5,falling,h_demo=14 > h_safe_A=3; Dir.Acc < 50% (worse than random)
+f2,stickiness,LocalLinear,hold_last,24,14,14,0.07126,59.49,0.0,1.52,7.1,flat,low CI coverage (7%); Dir.Acc < 50% (worse than random)
+f2,dau,LocalLinear,hold_last,1,14,14,97.85852,28.06,0.0,0.907,7.1,flat,h_demo=14 > h_safe_A=1; low CI coverage (7%); Dir.Acc < 50% (worse than random)
+f2,retention_d7,NadarayaWatson,linear_trend,0,14,8,0.09442,59.49,0.0,1.128,0.0,flat,h_demo=14 > h_safe_A=0; low CI coverage (0%); Dir.Acc < 50% (worse than random)

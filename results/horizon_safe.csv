@@ -1,0 +1,7 @@
+app_key,target,best_strategy,h_safe_A,h_safe_B,h_safe_C,winner_model_at_h_safe_C,N_origins_used
+f1,stickiness,hold_last,24,24,2,LocalLinear,5
+f1,dau,hold_last,2,2,2,LocalLinear,5
+f1,retention_d7,linear_trend,3,3,1,kNN,5
+f2,stickiness,hold_last,24,24,0,NadarayaWatson,5
+f2,dau,hold_last,1,24,6,Ridge,5
+f2,retention_d7,linear_trend,0,0,0,kNN,5

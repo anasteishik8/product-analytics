@@ -1,0 +1,329 @@
+{
+  "schema_version": "1.0",
+  "generated_by": "notebooks/04_modeling_*.ipynb",
+  "f1": {
+    "stickiness": {
+      "model": "XGBoost",
+      "kernel": null,
+      "bandwidth": null,
+      "max_features": 5,
+      "features": [
+        "median_session_duration",
+        "dau_growth_rate_7d",
+        "retention_trend",
+        "crash_rate",
+        "onboarding_completion_rate"
+      ],
+      "feature_train_medians": {
+        "median_session_duration": 0.049445833333333335,
+        "dau_growth_rate_7d": 0.015564202334630295,
+        "retention_trend": 0.0,
+        "crash_rate": 0.09802948382191434,
+        "onboarding_completion_rate": 0.49324324324324326
+      },
+      "test_metrics": {
+        "rmse": 0.07814318358740908,
+        "mae": 0.05985182631973577,
+        "mape": 110.37928371956951,
+        "smape": 59.981503729839034,
+        "r2": -4.961383527841786,
+        "mase": 2.303238044055072
+      },
+      "cv_metrics": {
+        "rmse_mean": 0.10071,
+        "rmse_std": 0.05016,
+        "n_folds": 5,
+        "cv_strategy": "KFold(5,shuffle=True,seed=42)"
+      },
+      "leakage_delta": {
+        "r2_leaky_minus_clean": 2.105,
+        "rmse_leaky_minus_clean": -0.01465
+      },
+      "dm_vs_ridge": {
+        "dm_stat": -2.0632939461052864,
+        "p_value": 0.03908470890213689,
+        "winner": "model1"
+      },
+      "k_optimal_knn": null,
+      "elasticnet_params": null,
+      "operational_features": [
+        "crash_rate",
+        "median_session_duration",
+        "onboarding_completion_rate"
+      ]
+    },
+    "dau": {
+      "model": "RandomForest",
+      "kernel": null,
+      "bandwidth": null,
+      "max_features": 5,
+      "features": [
+        "dau_growth_rate",
+        "dau_growth_rate_7d",
+        "crash_rate",
+        "onboarding_completion_rate",
+        "median_session_duration"
+      ],
+      "feature_train_medians": {
+        "dau_growth_rate": 0.0031055900621117516,
+        "dau_growth_rate_7d": 0.015564202334630295,
+        "crash_rate": 0.09802948382191434,
+        "onboarding_completion_rate": 0.49324324324324326,
+        "median_session_duration": 0.049445833333333335
+      },
+      "test_metrics": {
+        "rmse": 88.74175234181288,
+        "mae": 75.37217391304348,
+        "mape": 66.21213410465093,
+        "smape": 43.12049671026279,
+        "r2": -0.21458435298782508,
+        "mase": 2.0943401885770623
+      },
+      "cv_metrics": {
+        "rmse_mean": 48.45419,
+        "rmse_std": 10.42322,
+        "n_folds": 5,
+        "cv_strategy": "KFold(5,shuffle=True,seed=42)"
+      },
+      "leakage_delta": {
+        "r2_leaky_minus_clean": 0.1742,
+        "rmse_leaky_minus_clean": -4.34188
+      },
+      "dm_vs_ridge": {
+        "dm_stat": -2.701586361548834,
+        "p_value": 0.006900955585106061,
+        "winner": "model1"
+      },
+      "k_optimal_knn": null,
+      "elasticnet_params": null,
+      "operational_features": [
+        "crash_rate",
+        "median_session_duration",
+        "onboarding_completion_rate"
+      ]
+    },
+    "retention_d7": {
+      "model": "Ridge",
+      "kernel": null,
+      "bandwidth": null,
+      "max_features": 5,
+      "features": [
+        "retention_trend",
+        "dau_growth_rate",
+        "onboarding_completion_rate",
+        "crash_rate",
+        "median_session_duration"
+      ],
+      "feature_train_medians": {
+        "retention_trend": -0.0030165912518853727,
+        "dau_growth_rate": 0.0033112582781456013,
+        "onboarding_completion_rate": 0.5,
+        "crash_rate": 0.09271523178807947,
+        "median_session_duration": 0.04933333333333333
+      },
+      "test_metrics": {
+        "rmse": 0.0351876574927405,
+        "mae": 0.028573361045018404,
+        "mape": 57.91156263733388,
+        "smape": 64.09731217840566,
+        "r2": 0.6403572470607799,
+        "mase": 0.5958666031988953
+      },
+      "cv_metrics": {
+        "rmse_mean": 0.03272,
+        "rmse_std": 0.00349,
+        "n_folds": 5,
+        "cv_strategy": "TimeSeriesSplit(5)"
+      },
+      "leakage_delta": {
+        "r2_leaky_minus_clean": 0.0132,
+        "rmse_leaky_minus_clean": -0.00068
+      },
+      "dm_vs_ridge": {
+        "dm_stat": -0.8978799732915957,
+        "p_value": 0.36924954253636866,
+        "winner": "tie"
+      },
+      "k_optimal_knn": null,
+      "elasticnet_params": null,
+      "ar1_baseline_rmse": 0.05879970307765113,
+      "winner_vs_ar1": "Ridge лучше AR(1) на ΔRMSE=0.02361",
+      "operational_features": [
+        "crash_rate",
+        "median_session_duration",
+        "onboarding_completion_rate"
+      ]
+    }
+  },
+  "f2": {
+    "stickiness": {
+      "model": "LocalLinear",
+      "kernel": "gaussian",
+      "bandwidth": 0.5455594781168517,
+      "max_features": 7,
+      "features": [
+        "avg_session_duration_ma7",
+        "seasonality_change",
+        "onboarding_completion_rate",
+        "crash_rate",
+        "crash_rate_ma7",
+        "avg_session_duration",
+        "median_session_duration"
+      ],
+      "feature_train_medians": {
+        "avg_session_duration_ma7": 0.5845448238987097,
+        "seasonality_change": -3.7142857142857224,
+        "onboarding_completion_rate": 0.25,
+        "crash_rate": 0.06876171843156437,
+        "crash_rate_ma7": 0.0743066642306619,
+        "avg_session_duration": 0.5829123820807008,
+        "median_session_duration": 0.08289166666666667
+      },
+      "test_metrics": {
+        "rmse": 0.19512390081453182,
+        "mae": 0.17161669523927633,
+        "mape": 156.27150811522202,
+        "smape": 80.87212312272896,
+        "r2": -57.991932447595325,
+        "mase": 3.9444671946964434
+      },
+      "cv_metrics": {
+        "rmse_mean": 0.05826,
+        "rmse_std": 0.00931,
+        "n_folds": 5,
+        "cv_strategy": "KFold(5,shuffle=True,seed=42)"
+      },
+      "leakage_delta": {
+        "r2_leaky_minus_clean": -3.3001,
+        "rmse_leaky_minus_clean": 0.01135
+      },
+      "dm_vs_ridge": {
+        "dm_stat": -1.076124656735624,
+        "p_value": 0.28187150974506725,
+        "winner": "tie"
+      },
+      "k_optimal_knn": null,
+      "elasticnet_params": null,
+      "operational_features": [
+        "avg_session_duration",
+        "avg_session_duration_ma7",
+        "crash_rate",
+        "crash_rate_ma7",
+        "median_session_duration",
+        "onboarding_completion_rate"
+      ]
+    },
+    "dau": {
+      "model": "LocalLinear",
+      "kernel": "gaussian",
+      "bandwidth": 0.7847599703514611,
+      "max_features": 8,
+      "features": [
+        "seasonality_change",
+        "avg_session_duration_ma7",
+        "dau_growth_rate_7d",
+        "crash_rate",
+        "crash_rate_ma7",
+        "onboarding_completion_rate",
+        "avg_session_duration",
+        "median_session_duration"
+      ],
+      "feature_train_medians": {
+        "seasonality_change": -3.7142857142857224,
+        "avg_session_duration_ma7": 0.5845448238987097,
+        "dau_growth_rate_7d": 0.0,
+        "crash_rate": 0.06876171843156437,
+        "crash_rate_ma7": 0.0743066642306619,
+        "onboarding_completion_rate": 0.25,
+        "avg_session_duration": 0.5829123820807008,
+        "median_session_duration": 0.08289166666666667
+      },
+      "test_metrics": {
+        "rmse": 58.86789086815149,
+        "mae": 46.14690845474325,
+        "mape": 12.806462626265338,
+        "smape": 14.055178558334083,
+        "r2": 0.49637787892295815,
+        "mase": 0.5087797535879689
+      },
+      "cv_metrics": {
+        "rmse_mean": 34.05103,
+        "rmse_std": 7.95156,
+        "n_folds": 5,
+        "cv_strategy": "KFold(5,shuffle=True,seed=42)"
+      },
+      "leakage_delta": {
+        "r2_leaky_minus_clean": 1.3279,
+        "rmse_leaky_minus_clean": -44.61312
+      },
+      "dm_vs_ridge": {
+        "dm_stat": 3.8086707963081863,
+        "p_value": 0.00013971582408989214,
+        "winner": "model2"
+      },
+      "k_optimal_knn": null,
+      "elasticnet_params": null,
+      "operational_features": [
+        "avg_session_duration",
+        "avg_session_duration_ma7",
+        "crash_rate",
+        "crash_rate_ma7",
+        "median_session_duration",
+        "onboarding_completion_rate"
+      ]
+    },
+    "retention_d7": {
+      "model": "NadarayaWatson",
+      "kernel": "gaussian",
+      "bandwidth": 0.18329807108324356,
+      "max_features": 5,
+      "features": [
+        "retention_trend",
+        "peak_hour",
+        "avg_session_duration",
+        "crash_rate",
+        "onboarding_completion_rate"
+      ],
+      "feature_train_medians": {
+        "retention_trend": 0.0,
+        "peak_hour": 3.0,
+        "avg_session_duration": 0.5916198584863794,
+        "crash_rate": 0.07614998067259374,
+        "onboarding_completion_rate": 0.25
+      },
+      "test_metrics": {
+        "rmse": 0.06669714537660068,
+        "mae": 0.06347621497970177,
+        "mape": 79.39856517421451,
+        "smape": 57.6627133053639,
+        "r2": -0.24195818056170415,
+        "mase": 0.9857579894935237
+      },
+      "cv_metrics": {
+        "rmse_mean": 0.0554,
+        "rmse_std": 0.01499,
+        "n_folds": 5,
+        "cv_strategy": "TimeSeriesSplit(5)"
+      },
+      "leakage_delta": {
+        "r2_leaky_minus_clean": 0.0782,
+        "rmse_leaky_minus_clean": -0.00363
+      },
+      "dm_vs_ridge": {
+        "dm_stat": 2.1386620835570915,
+        "p_value": 0.03246304550840007,
+        "winner": "model2"
+      },
+      "k_optimal_knn": null,
+      "elasticnet_params": null,
+      "ar1_baseline_rmse": 0.06153057970491976,
+      "winner_vs_ar1": "AR(1) лучше NadarayaWatson на ΔRMSE=0.00517",
+      "operational_features": [
+        "avg_session_duration",
+        "crash_rate",
+        "onboarding_completion_rate"
+      ]
+    }
+  },
+  "generated_at": "2026-05-04T17:31:07.913527Z"
+}
